@@ -12,10 +12,14 @@ rm -rf venv  # in case you have an old borked venv!
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+pip install cairosvg
 
 rm -rf emojicompat
 git clone https://github.com/googlefonts/emojicompat.git
 pip install emojicompat/
+
+# Generate PNGs
+python gen_pngs.py
 
 # Validation
 python size_check.py
