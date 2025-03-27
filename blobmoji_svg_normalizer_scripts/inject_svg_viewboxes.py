@@ -45,7 +45,7 @@ def process_folder(folder_path):
             add_viewbox_if_missing(file_path)
 
 if __name__ == '__main__':
-    folder = input("Enter the path to your SVG folder: ").strip()
+    folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../svg')
     if os.path.isdir(folder):
         process_folder(folder)
     else:
