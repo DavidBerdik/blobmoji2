@@ -55,5 +55,5 @@ def process_svg_folder(folder_path):
                 except Exception as e:
                     print(f"Error processing {full_path}: {e}")
 
-svg_folder = "svg"
+svg_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../svg')
 process_svg_folder(svg_folder)
