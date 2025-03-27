@@ -60,13 +60,6 @@ def main():
     print(f"\nFound {len(svg_files_with_text)} SVG files containing text elements:")
     for file in svg_files_with_text:
         print(f"- {file}")
-    
-    # Optional: Save results to a file
-    output_file = "svg_with_text.txt"
-    with open(output_file, 'w') as f:
-        for file in svg_files_with_text:
-            f.write(f"{file}\n")
-    print(f"\nResults saved to {output_file}")
 
 if __name__ == "__main__":
     main()
