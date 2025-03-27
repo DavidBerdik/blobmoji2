@@ -29,7 +29,7 @@ rm -rf build/* build/.* && time make -j 48
 mv *.ttf fonts/
 
 # make noflags CBDT font
-rm fonts/NotoColorEmoji-noflags.ttf
+rm -f fonts/NotoColorEmoji-noflags.ttf
 python drop_flags.py fonts/NotoColorEmoji.ttf
 
 # Build the COLRv1 font (slow)
