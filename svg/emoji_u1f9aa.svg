@@ -12,6 +12,6 @@
         <circle cx="55.813" cy="56.899" r="7.101" style="fill:rgb(168,226,249);"/>
     </g>
     <g transform="matrix(1.20037,0.693032,-0.693032,1.20037,27.137,-69.0167)">
-        <path d="M50.012,55.959C51.358,56.349 52.348,57.108 52.982,58.375" style="fill:none;stroke:white;stroke-width:0.72px;"/>
+        <path d="M50.012,55.959C51.358,56.349 52.348,57.108 52.982,58.375" style="fill:none;stroke:white;stroke-width:0.72;"/>
     </g>
 </svg>

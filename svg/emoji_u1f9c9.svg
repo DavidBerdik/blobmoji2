@@ -17,6 +17,6 @@
         <ellipse cx="62.608" cy="41.093" rx="34.44" ry="5.496" style="fill:rgb(117,127,63);"/>
     </g>
     <g transform="matrix(1.22416,0,0,1.22416,-14.346,-22.5601)">
-        <path d="M75.688,50.008L97.509,22.533" style="fill:none;stroke:rgb(153,100,63);stroke-width:6.54px;"/>
+        <path d="M75.688,50.008L97.509,22.533" style="fill:none;stroke:rgb(153,100,63);stroke-width:6.54;"/>
     </g>
 </svg>
