@@ -1,2 +1,13 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><path d="M20.79 126.61V96.9h-6.38C5.98 96.9.95 91.86.95 83.43V14.01C.95 6.94 6.86 1.4 14.41 1.4h99.18c7.67 0 13.46 5.42 13.46 12.61v69.43c0 8.18-5.28 13.47-13.46 13.47H51l-30.21 29.7z" fill="#2f2f2f" /><path d="M14.41 8.48c-3.17 0-6.37 1.9-6.37 5.52v69.43c0 4.53 1.85 6.37 6.37 6.37h13.47v19.88L48.1 89.81h65.49c4.29 0 6.37-2.09 6.37-6.37V14.01c0-3.62-3.2-5.52-6.37-5.52H14.41z" fill="#fff" /></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<path style="fill:#FFFFFF;stroke:#000000;stroke-width:6;stroke-linejoin:round;stroke-miterlimit:10;" d="M63.65,8.07
+	C20.99,8.29,3.72,30.53,3.39,58.23C3.21,73.7,13.18,87.06,28.46,95.21c7.45,5.27-1.42,22.54-8.52,26.95c0,0,25.1-1.71,32.02-19.4
+	l0,0c3.82,0.56,7.75,0.85,11.78,0.85c33.28,0,60.17-17.68,60.17-45.38S106.72,7.86,63.65,8.07z"/>
+<g>
+	<circle style="fill:#54646D;" cx="32.6" cy="57" r="8"/>
+	<circle style="fill:#54646D;" cx="64.6" cy="57" r="8"/>
+	<circle style="fill:#54646D;" cx="95.4" cy="57" r="8"/>
+</g>
+</svg>
