@@ -1,11 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" width="128" height="128" version="1.1" id="svg14110" ns1:docname="emoji_u1f922.svg" ns2:version="1.2.2 (732a01da63, 2022-12-09)" viewBox="0 0 128 128">
-  <defs id="defs14114" />
-  <ns1:namedview id="namedview14112" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns2:showpageshadow="2" ns2:pageopacity="0.0" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" showgrid="false" ns2:zoom="2.9996796" ns2:cx="78.175016" ns2:cy="58.672933" ns2:window-width="1366" ns2:window-height="697" ns2:window-x="-8" ns2:window-y="-8" ns2:window-maximized="1" ns2:current-layer="svg14110" />
-  <style id="style14100">.st0{fill:#7cb342}.st1{fill:#2f2f2f}.st2{fill:none;stroke:#2f2f2f;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10}</style>
-  <path class="st0" d="m 127.1,94.24 c 0,13.8 -28.2,25 -63,25 -34.8,0 -63,-11.2 -63,-25 0,-13.8 1.5,-83.6 63,-83.6 61.6,0 63,69.8 63,83.6" id="path14102" />
-  <path class="st1" d="M42 68c-4.5 0-8.2-4.3-8.2-9.6 0-5.4 3.6-9.7 8-9.8 4.5 0 8.2 4.3 8.2 9.6.1 5.4-3.5 9.8-8 9.8zM86.6 68c-4.5 0-8.2-4.3-8.2-9.6 0-5.4 3.6-9.7 8-9.8 4.5 0 8.2 4.3 8.2 9.6.1 5.4-3.5 9.8-8 9.8z" id="path14104" />
-  <path class="st2" d="M40.4 79.8s3.3 1.3 5 6.2c1.7 4.8.2 10.2.2 10.2M87.6 79.8s-3.3 1.3-5 6.2c-1.7 4.8-.2 10.2-.2 10.2M46.2 87.5c11.7-2.8 24-2.7 35.6.3" id="path14106" />
-  <path class="st0" d="M79.9 48.6s.9 2.8 7.7 4.7c4.3 1.2 7.9.9 7.9.9s.1-7.5-7.9-8.1c-5.1-.5-7.7 2.5-7.7 2.5z" id="path14108" />
-  <path class="st0" d="m 48.502034,48.6 c 0,0 -0.9,2.8 -7.7,4.7 -4.3,1.2 -7.9,0.9 -7.9,0.9 0,0 -0.1,-7.5 7.9,-8.1 5.1,-0.5 7.7,2.5 7.7,2.5 z" id="path14995" />
+  <defs id="defs14114"/>
+  <ns1:namedview id="namedview14112" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns2:showpageshadow="2" ns2:pageopacity="0.0" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" showgrid="false" ns2:zoom="2.9996796" ns2:cx="78.175016" ns2:cy="58.672933" ns2:window-width="1366" ns2:window-height="697" ns2:window-x="-8" ns2:window-y="-8" ns2:window-maximized="1" ns2:current-layer="svg14110"/>
+  <path class="st0" d="m 127.1,94.24 c 0,13.8 -28.2,25 -63,25 -34.8,0 -63,-11.2 -63,-25 0,-13.8 1.5,-83.6 63,-83.6 61.6,0 63,69.8 63,83.6" id="path14102" style="fill: #7cb342"/>
+  <path class="st1" d="M42 68c-4.5 0-8.2-4.3-8.2-9.6 0-5.4 3.6-9.7 8-9.8 4.5 0 8.2 4.3 8.2 9.6.1 5.4-3.5 9.8-8 9.8zM86.6 68c-4.5 0-8.2-4.3-8.2-9.6 0-5.4 3.6-9.7 8-9.8 4.5 0 8.2 4.3 8.2 9.6.1 5.4-3.5 9.8-8 9.8z" id="path14104" style="fill: #2f2f2f"/>
+  <path class="st2" d="M40.4 79.8s3.3 1.3 5 6.2c1.7 4.8.2 10.2.2 10.2M87.6 79.8s-3.3 1.3-5 6.2c-1.7 4.8-.2 10.2-.2 10.2M46.2 87.5c11.7-2.8 24-2.7 35.6.3" id="path14106" style="fill: none; stroke: #2f2f2f; stroke-width: 6; stroke-linecap: round; stroke-miterlimit: 10"/>
+  <path class="st0" d="M79.9 48.6s.9 2.8 7.7 4.7c4.3 1.2 7.9.9 7.9.9s.1-7.5-7.9-8.1c-5.1-.5-7.7 2.5-7.7 2.5z" id="path14108" style="fill: #7cb342"/>
+  <path class="st0" d="m 48.502034,48.6 c 0,0 -0.9,2.8 -7.7,4.7 -4.3,1.2 -7.9,0.9 -7.9,0.9 0,0 -0.1,-7.5 7.9,-8.1 5.1,-0.5 7.7,2.5 7.7,2.5 z" id="path14995" style="fill: #7cb342"/>
 </svg>
