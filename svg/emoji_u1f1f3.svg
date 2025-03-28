@@ -1,20 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="128"
-   height="128"
-   version="1.1"
-   id="svg6"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs10" />
-  <g
-     aria-label="N"
-     id="text4"
-     style="line-height:1.25;fill:#40c0e7">
-    <path
-       d="m 31.679966,119.92 c 4.32,0 8,-3.36 8,-7.84 l 0.16,-67.840001 49.92,72.160001 c 1.6,2.24 4.16,3.52 6.56,3.52 4.320004,0 7.840004,-3.2 7.840004,-7.84 V 18.799999 c 0,-4.32 -3.68,-8 -7.840004,-8 -4.48,0 -8,3.68 -8,8 v 68 l -50.08,-72.48 c -1.44,-2.08 -4.16,-3.36 -6.56,-3.36 -4.48,0 -7.68,3.68 -7.68,7.84 l -0.16,93.280001 c 0,4.16 3.68,7.84 7.84,7.84 z"
-       style="text-align:center;text-anchor:middle"
-       id="path12" />
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" version="1.1" id="svg6" viewBox="0 0 128 128">
+  <defs id="defs10" />
+  <g aria-label="N" id="text4" style="line-height:1.25;fill:#40c0e7">
+    <path d="m 31.679966,119.92 c 4.32,0 8,-3.36 8,-7.84 l 0.16,-67.840001 49.92,72.160001 c 1.6,2.24 4.16,3.52 6.56,3.52 4.320004,0 7.840004,-3.2 7.840004,-7.84 V 18.799999 c 0,-4.32 -3.68,-8 -7.840004,-8 -4.48,0 -8,3.68 -8,8 v 68 l -50.08,-72.48 c -1.44,-2.08 -4.16,-3.36 -6.56,-3.36 -4.48,0 -7.68,3.68 -7.68,7.84 l -0.16,93.280001 c 0,4.16 3.68,7.84 7.84,7.84 z" style="text-align:center;text-anchor:middle" id="path12" />
   </g>
 </svg>

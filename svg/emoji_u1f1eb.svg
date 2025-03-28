@@ -1,20 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="128"
-   height="128"
-   version="1.1"
-   id="svg6"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs10" />
-  <g
-     aria-label="F"
-     id="text4"
-     style="line-height:1.25;fill:#40c0e7">
-    <path
-       d="m 37.52005,120.08 c 4.48,0 8,-3.52 8,-8 V 71.279999 h 42.56 c 4.48,0 7.84,-3.68 7.84,-7.84 0,-4.48 -3.36,-8.16 -7.84,-8.16 h -42.56 v -27.52 h 55.84 c 4.48,0 7.84,-3.84 7.84,-8 0,-4.48 -3.36,-8 -7.84,-8 h -63.84 c -4.48,0 -8,3.52 -8,8 V 112.08 c 0,4.48 3.52,8 8,8 z"
-       style="text-align:center;text-anchor:middle"
-       id="path12" />
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" version="1.1" id="svg6" viewBox="0 0 128 128">
+  <defs id="defs10" />
+  <g aria-label="F" id="text4" style="line-height:1.25;fill:#40c0e7">
+    <path d="m 37.52005,120.08 c 4.48,0 8,-3.52 8,-8 V 71.279999 h 42.56 c 4.48,0 7.84,-3.68 7.84,-7.84 0,-4.48 -3.36,-8.16 -7.84,-8.16 h -42.56 v -27.52 h 55.84 c 4.48,0 7.84,-3.84 7.84,-8 0,-4.48 -3.36,-8 -7.84,-8 h -63.84 c -4.48,0 -8,3.52 -8,8 V 112.08 c 0,4.48 3.52,8 8,8 z" style="text-align:center;text-anchor:middle" id="path12" />
   </g>
 </svg>
