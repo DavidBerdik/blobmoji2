@@ -30,7 +30,7 @@
                         <ellipse cx="80.58" cy="35" rx="4.78" ry="4.06" style="fill:rgb(62,39,35);"/>
                     </g>
                 </g>
-                <path d="M57.59,47.22C59.49,52.83 68.85,54.05 72.2,49.09" style="fill:none;fill-rule:nonzero;stroke:rgb(62,39,35);stroke-width:2.45px;"/>
+                <path d="M57.59,47.22C59.49,52.83 68.85,54.05 72.2,49.09" style="fill:none;fill-rule:nonzero;stroke:rgb(62,39,35);stroke-width:2.45;"/>
                 <path d="M67.78,47.83C65.37,48.36 62.92,47.94 61.31,45.92C60.1,44.41 58.85,41.88 60.57,40.09C63.01,37.59 69.08,38.34 71.28,40.82C72.53,42.93 70.06,47.35 67.78,47.83Z" style="fill:rgb(62,39,35);fill-rule:nonzero;"/>
             </g>
         </g>

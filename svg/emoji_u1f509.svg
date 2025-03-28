@@ -11,7 +11,7 @@
     <g transform="matrix(1,0,0,1,9.001,0)">
         <path d="M72.299,10.969L72.186,11.047C72.222,11.041 72.259,11.035 72.295,11.029L72.299,10.969ZM68.352,13.715L21.424,46.373C21.424,46.373 38.918,45.023 59.51,39.555L59.516,39.553C61.372,27.379 64.54,18.115 68.352,13.715Z" style="fill:url(#_Linear2);fill-rule:nonzero;"/>
     </g>
-    <path d="M104.693,93.687C108.437,86.328 110.603,75.449 110.603,64C110.603,52.551 108.437,41.672 104.693,34.313" style="fill:none;fill-rule:nonzero;stroke:rgb(0,202,243);stroke-width:4.74px;"/>
+    <path d="M104.693,93.687C108.437,86.328 110.603,75.449 110.603,64C110.603,52.551 108.437,41.672 104.693,34.313" style="fill:none;fill-rule:nonzero;stroke:rgb(0,202,243);stroke-width:4.74;"/>
     <defs>
         <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-8.124,-55.933,55.933,-8.124,47.25,113.278)"><stop offset="0" style="stop-color:black;stop-opacity:0.15"/><stop offset="1" style="stop-color:black;stop-opacity:0"/></linearGradient>
         <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(14.578,78.931,-78.931,14.578,43.521,12.927)"><stop offset="0" style="stop-color:white;stop-opacity:0.15"/><stop offset="1" style="stop-color:white;stop-opacity:0"/></linearGradient>

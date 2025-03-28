@@ -21,18 +21,18 @@
     </g>
     <circle id="circle38" cx="32.43" cy="86.31" r="25.53" style="fill:rgb(255,243,224);"/>
     <path id="path40" d="M9.17,88.83C8.89,84.45 10.14,78.5 14.5,72.55C16.27,70.14 16.98,67.74 14.51,66.06L13.55,65.41C4.42,73.81 2.37,85.79 4.96,95.29L6.55,94.87C9.22,94.16 9.34,91.59 9.17,88.83Z" style="fill:rgb(134,168,180);fill-rule:nonzero;"/>
-    <path id="line42" d="M23.79,87.58L17.85,95.29" style="fill:none;fill-rule:nonzero;stroke:rgb(207,216,220);stroke-width:0.5px;"/>
-    <path id="line44" d="M21.42,98.36L28.33,92.09" style="fill:none;fill-rule:nonzero;stroke:rgb(207,216,220);stroke-width:0.5px;"/>
-    <path id="line46" d="M20.36,96.96L26.81,90.59" style="fill:none;fill-rule:nonzero;stroke:rgb(207,216,220);stroke-width:0.5px;"/>
-    <path id="line48" d="M19.04,96.17L25.3,89.08" style="fill:none;fill-rule:nonzero;stroke:rgb(207,216,220);stroke-width:0.5px;"/>
+    <path id="line42" d="M23.79,87.58L17.85,95.29" style="fill:none;fill-rule:nonzero;stroke:rgb(207,216,220);stroke-width:0.5;"/>
+    <path id="line44" d="M21.42,98.36L28.33,92.09" style="fill:none;fill-rule:nonzero;stroke:rgb(207,216,220);stroke-width:0.5;"/>
+    <path id="line46" d="M20.36,96.96L26.81,90.59" style="fill:none;fill-rule:nonzero;stroke:rgb(207,216,220);stroke-width:0.5;"/>
+    <path id="line48" d="M19.04,96.17L25.3,89.08" style="fill:none;fill-rule:nonzero;stroke:rgb(207,216,220);stroke-width:0.5;"/>
     <path id="path50" d="M15.18,109.22L9.52,103.99L10.82,99.91L16.45,93.92C16.82,93.49 17.47,93.46 17.88,93.86L22.69,98.6C23.09,98.99 23.07,99.64 22.66,100.02L16.05,105.94L15.18,109.22Z" style="fill:rgb(134,168,180);fill-rule:nonzero;"/>
     <g id="g60">
-        <path id="polyline52" d="M23.79,87.58L101.21,19.37L101.72,16.97" style="fill:none;fill-rule:nonzero;stroke:rgb(134,168,180);stroke-width:0.5px;"/>
-        <path id="polyline54" d="M25.3,89.08L102.81,19.83L112.32,9.02" style="fill:none;fill-rule:nonzero;stroke:rgb(134,168,180);stroke-width:0.5px;"/>
-        <path id="polyline56" d="M26.81,90.59L103.64,20.84L117.22,13.39" style="fill:none;fill-rule:nonzero;stroke:rgb(134,168,180);stroke-width:0.5px;"/>
-        <path id="polyline58" d="M28.33,92.09L104.63,22.04L107.17,21.47" style="fill:none;fill-rule:nonzero;stroke:rgb(134,168,180);stroke-width:0.5px;"/>
+        <path id="polyline52" d="M23.79,87.58L101.21,19.37L101.72,16.97" style="fill:none;fill-rule:nonzero;stroke:rgb(134,168,180);stroke-width:0.5;"/>
+        <path id="polyline54" d="M25.3,89.08L102.81,19.83L112.32,9.02" style="fill:none;fill-rule:nonzero;stroke:rgb(134,168,180);stroke-width:0.5;"/>
+        <path id="polyline56" d="M26.81,90.59L103.64,20.84L117.22,13.39" style="fill:none;fill-rule:nonzero;stroke:rgb(134,168,180);stroke-width:0.5;"/>
+        <path id="polyline58" d="M28.33,92.09L104.63,22.04L107.17,21.47" style="fill:none;fill-rule:nonzero;stroke:rgb(134,168,180);stroke-width:0.5;"/>
     </g>
-    <path id="line62" d="M21.38,85.18L31.48,95.23" style="fill:none;fill-rule:nonzero;stroke:rgb(133,92,82);stroke-width:2.61px;"/>
+    <path id="line62" d="M21.38,85.18L31.48,95.23" style="fill:none;fill-rule:nonzero;stroke:rgb(133,92,82);stroke-width:2.61;"/>
     <circle id="circle64" cx="101.72" cy="16.97" r="1.53" style="fill:rgb(134,168,180);"/>
     <circle id="circle66" cx="107.17" cy="21.47" r="1.53" style="fill:rgb(134,168,180);"/>
     <circle id="circle68" cx="112.32" cy="9.02" r="1.53" style="fill:rgb(134,168,180);"/>
