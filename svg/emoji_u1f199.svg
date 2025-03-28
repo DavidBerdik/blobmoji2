@@ -1,25 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0"
-	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
-<path style="fill:#427687;" d="M116,4H12c-4.42,0-8,3.58-8,8v104c0,4.42,3.58,8,8,8h104c4.42,0,8-3.58,8-8V12
-	C124,7.58,120.42,4,116,4z"/>
-<path style="fill:#8CAFBF;" d="M109.7,4H11.5C7.37,4.03,4.03,7.37,4,11.5v97.9c-0.01,4.14,3.34,7.49,7.48,7.5c0.01,0,0.01,0,0.02,0
-	h98.1c4.14,0.01,7.49-3.34,7.5-7.48c0-0.01,0-0.01,0-0.02V11.5c0.09-4.05-3.13-7.41-7.18-7.5C109.85,4,109.77,4,109.7,4z"/>
-<path style="opacity:0.5;fill:#B4E1ED;enable-background:new    ;" d="M39.7,12.9c0-2.3-1.6-3-10.8-2.7c-7.7,0.3-11.5,1.2-13.8,4
-	s-2.9,3.47-3,10.27c0,4.8,0,9.3,2.5,9.3c3.4,0,3.4-2.87,6.2-7.27C26.2,17.8,39.7,15.9,39.7,12.9z"/>
-<g>
-	<path style="fill:#FAFAFA;" d="M20.22,89.32c-2.84-1.77-5.04-4.34-6.6-7.69c-1.57-3.35-2.35-7.32-2.35-11.9V37.88h9.12v32.45
-		c0,3.65,0.85,6.59,2.55,8.83c1.7,2.24,4.12,3.36,7.25,3.36c3.13,0,5.55-1.12,7.25-3.36c1.7-2.24,2.55-5.19,2.55-8.83V37.88h9.12
-		v31.86c0,4.39-0.77,8.25-2.31,11.61c-1.54,3.35-3.74,5.96-6.6,7.84c-2.86,1.87-6.2,2.81-10.01,2.81
-		C26.38,91.99,23.05,91.1,20.22,89.32z"/>
-	<path style="fill:#FAFAFA;" d="M59.4,37.88h17.16c3.08,0,5.9,0.7,8.44,2.11c2.54,1.4,4.54,3.38,5.99,5.91
-		c1.45,2.54,2.18,5.43,2.18,8.69c0,3.25-0.73,6.16-2.18,8.72c-1.45,2.56-3.45,4.55-5.99,5.95c-2.54,1.4-5.36,2.11-8.44,2.11h-7.97
-		V90.8H59.4V37.88z M76.83,61.9c2.27,0,4.05-0.71,5.34-2.14c1.29-1.43,1.94-3.15,1.94-5.17c0-2.02-0.65-3.73-1.94-5.14
-		c-1.29-1.4-3.08-2.11-5.34-2.11h-8.24V61.9H76.83z"/>
-	<path style="fill:#FAFAFA;" d="M100.9,88.92c-1.16-1.26-1.74-2.77-1.74-4.55c0-1.77,0.58-3.28,1.74-4.51
-		c1.16-1.23,2.55-1.85,4.19-1.85c1.63,0,3.03,0.62,4.19,1.85c1.16,1.23,1.74,2.74,1.74,4.51c0,1.77-0.58,3.29-1.74,4.55
-		c-1.16,1.26-2.55,1.88-4.19,1.88C103.45,90.8,102.05,90.17,100.9,88.92z M100.52,53.1V37.88h9.12V53.1l-0.82,19.52h-7.49
-		L100.52,53.1z"/>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="128"
+   height="128"
+   version="1.1"
+   id="svg3103"
+   sodipodi:docname="emoji_u1f199.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3107" />
+  <sodipodi:namedview
+     id="namedview3105"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.84375"
+     inkscape:cx="63.457627"
+     inkscape:cy="64.271186"
+     inkscape:current-layer="svg3103" />
+  <g
+     transform="matrix(5.71429,0,0,7.05882,-18.857205,-24.23525)"
+     id="g4"
+     style="clip-rule:evenodd;fill:#40c0e7;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
+    <path
+       d="M 25,6.267 C 25,5.016 23.745,4 22.2,4 H 6.8 C 5.255,4 4,5.016 4,6.267 V 18.733 C 4,19.984 5.255,21 6.8,21 h 15.4 c 1.545,0 2.8,-1.016 2.8,-2.267 z"
+       style="fill:#40c0e7"
+       id="path2" />
+  </g>
+  <g
+     transform="translate(-2.2735147,1.047149)"
+     id="g12"
+     style="clip-rule:evenodd;fill:#81d7ee;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
+    <path
+       d="M 30.915,7.958 C 25.554,8.085 15,8 12.066,18.857 c -0.581,2.15 -1.578,5.57 0.285,7.423 1.433,1.425 3.932,0.985 5.373,-0.162 1.534,-1.221 2.286,-3.205 3.245,-4.857 1.114,-1.917 2.599,-3.655 4.34,-5.034 1.627,-1.289 3.482,-2.052 5.444,-2.683 1.362,-0.438 3.297,-0.632 3.969,-1.979 C 36,9 32.576,7.869 30.915,7.958 Z"
+       style="fill:#81d7ee"
+       id="path10" />
+  </g>
+  <text
+     style="line-height:54.6087px;stroke-width:0.918216"
+     x="4.3702583"
+     y="88.418106"
+     transform="scale(0.91526739,1.0925769)"
+     font-weight="400"
+     font-size="87.3737px"
+     font-family="Sans"
+     letter-spacing="0"
+     word-spacing="0"
+     fill="#ffffff"
+     id="text3101"><tspan
+       x="4.3702583"
+       y="88.418106"
+       style="-inkscape-font-specification:'Comic Neue Bold';stroke-width:0.84312"
+       font-weight="700"
+       font-family="'Comic Neue'"
+       id="tspan3099">UP!</tspan></text>
 </svg>
