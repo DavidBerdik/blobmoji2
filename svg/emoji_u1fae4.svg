@@ -1,34 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Raised-Hand" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0"
-	 y="0" viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
-<radialGradient id="face_1_" cx="63.6" cy="-7019.0771" r="56.9597" gradientTransform="matrix(1 0 0 -1 0 -6956.1772)" gradientUnits="userSpaceOnUse">
-	<stop  offset="0.5" style="stop-color:#FDE030"/>
-	<stop  offset="0.9188" style="stop-color:#F7C02B"/>
-	<stop  offset="1" style="stop-color:#F4A223"/>
-</radialGradient>
-<path id="face_73_" style="fill:url(#face_1_);" d="M63.6,118.8c-27.9,0-58-17.5-58-55.9S35.7,7,63.6,7c15.5,0,29.8,5.1,40.4,14.4
-	c11.5,10.2,17.6,24.6,17.6,41.5s-6.1,31.2-17.6,41.4C93.4,113.6,79,118.8,63.6,118.8z"/>
-<path style="fill:#EB8F00;" d="M111.49,29.67c5.33,8.6,8.11,18.84,8.11,30.23c0,16.9-6.1,31.2-17.6,41.4
-	c-10.6,9.3-25,14.5-40.4,14.5c-18.06,0-37.04-7.35-48.18-22.94c10.76,17.66,30.99,25.94,50.18,25.94c15.4,0,29.8-5.2,40.4-14.5
-	c11.5-10.2,17.6-24.5,17.6-41.4C121.6,50.16,118.13,38.84,111.49,29.67z"/>
-<path style="fill:#422B0D;" d="M44.67,45.94L44.67,45.94c-4.19,0-8,3.54-8,9.42s3.81,9.42,8,9.42l0,0c4.19,0,8-3.54,8-9.42
-	S48.86,45.94,44.67,45.94z"/>
-<g>
-	<g id="peepers_57_">
-		<path style="fill:#896024;" d="M44.28,49.87L44.28,49.87c-1.03-0.72-2.58-0.49-3.58,0.95c-1,1.45-0.67,2.97,0.36,3.69l0,0
-			c1.03,0.72,2.58,0.49,3.58-0.95C45.64,52.11,45.31,50.59,44.28,49.87z"/>
-	</g>
-</g>
-<path style="fill:#422B0D;" d="M83.02,45.94L83.02,45.94c-4.19,0-8,3.54-8,9.42s3.81,9.42,8,9.42l0,0c4.19,0,8-3.54,8-9.42
-	S87.21,45.94,83.02,45.94z"/>
-<g>
-	<g id="peepers_56_">
-		<path style="fill:#896024;" d="M82.63,49.87L82.63,49.87c-1.03-0.72-2.58-0.49-3.58,0.95c-1,1.45-0.67,2.97,0.36,3.69l0,0
-			c1.03,0.72,2.58,0.49,3.58-0.95C84,52.11,83.67,50.59,82.63,49.87z"/>
-	</g>
-</g>
-<path style="fill:#422B0D;" d="M89.3,79.3c-2.83,1.7-9.46,4.7-21.51,9.86c-0.02,0.01-0.04,0.02-0.05,0.02
-	c-0.02,0.01-0.04,0.01-0.06,0.02c-12.06,5.16-18.8,7.88-21.99,8.75c-1.94,0.53-3.6-1.45-1.93-3.98c3.09-4.67,38.48-19.8,43.99-18.81
-	C90.75,75.7,91.03,78.27,89.3,79.3z"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="128px"
+   height="128px"
+   version="1.1"
+   xml:space="preserve"
+   style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"
+   id="svg12"
+   sodipodi:docname="face with diagonal mouth.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs16" /><sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="4.2421875"
+     inkscape:cx="47.381215"
+     inkscape:cy="63.882136"
+     inkscape:window-width="1366"
+     inkscape:window-height="697"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" /><path
+     d="M63.8,9.47C1.28,9.47 -0.2,79.55 -0.2,93.42C-0.2,107.3 28.45,118.53 63.8,118.53C99.15,118.53 127.79,107.3 127.79,93.42C127.79,79.55 126.31,9.47 63.8,9.47Z"
+     style="fill:#fcc21b;fill-rule:nonzero;"
+     id="path2" /><g
+     transform="matrix(1,0,0,1,-0.204753,0)"
+     id="g6"><path
+       d="M42.21,66.47C37.72,66.51 34.04,62.2 33.99,56.85C33.94,51.48 37.54,47.1 42.03,47.06C46.51,47.02 50.2,51.33 50.25,56.7C50.3,62.06 46.7,66.43 42.21,66.47ZM86.32,66.47C90.8,66.46 94.43,62.11 94.42,56.76C94.41,51.39 90.76,47.06 86.28,47.07C81.79,47.08 78.15,51.43 78.16,56.8C78.18,62.15 81.83,66.48 86.32,66.47Z"
+       style="fill:#2f2f2f;fill-rule:nonzero;"
+       id="path4" /></g><g
+     id="g855"><path
+       d="M 83.552951,80.982191 44.447132,89.532288"
+       style="fill:none;stroke:#2f2f2f;stroke-width:6;stroke-dasharray:none"
+       id="path8" /></g></svg>
