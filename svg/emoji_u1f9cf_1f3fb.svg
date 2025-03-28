@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
     <g transform="matrix(1,0,0,1,9.38529,0.22)">
-        <ellipse cx="64" cy="45.9" rx="42" ry="39.5" style="fill:212121;"/>
+        <ellipse cx="64" cy="45.9" rx="42" ry="39.5" style="fill:#212121;"/>
     </g>
     <g transform="matrix(1,0,0,1,9.38529,0.22)">
         <path d="M20.43,117.88L20.43,127.77L107.57,127.77L107.57,117.88C107.57,102.71 86.18,95.01 64.33,95.04C42.61,95.06 20.43,101.81 20.43,117.88Z" style="fill:rgb(218,65,5);fill-rule:nonzero;"/>
@@ -26,7 +26,7 @@
         <path d="M68.4,70.05C66.83,70.49 65.2,70.71 63.94,70.71C62.68,70.71 61.05,70.49 59.48,70.05C58.81,69.86 58.54,70.5 58.79,70.92C59.29,71.8 61.29,73.56 63.94,73.56C66.59,73.56 68.59,71.79 69.09,70.92C69.34,70.5 69.08,69.86 68.4,70.05Z" style="fill:#dba689;fill-rule:nonzero;"/>
     </g>
     <g transform="matrix(1,0,0,0.801111,9.38529,1.60228)">
-        <path d="M73.07,34.21C69.84,37.32 53.78,51.79 31.65,55.56L31.65,25.9C31.65,25.9 41.2,6.95 64.12,6.95C87.04,6.95 96.6,26.38 96.6,26.38L96.6,55.57C96.6,55.57 81.58,49.81 74.04,34.4C73.942,34.183 73.725,34.043 73.488,34.043C73.332,34.043 73.183,34.103 73.07,34.21Z" style="fill:212121;fill-rule:nonzero;"/>
+        <path d="M73.07,34.21C69.84,37.32 53.78,51.79 31.65,55.56L31.65,25.9C31.65,25.9 41.2,6.95 64.12,6.95C87.04,6.95 96.6,26.38 96.6,26.38L96.6,55.57C96.6,55.57 81.58,49.81 74.04,34.4C73.942,34.183 73.725,34.043 73.488,34.043C73.332,34.043 73.183,34.103 73.07,34.21Z" style="fill:#212121;fill-rule:nonzero;"/>
     </g>
     <g transform="matrix(1,0,0,1,9.38529,0.22)">
         <rect x="89.64" y="119.32" width="3" height="8.46" style="fill-opacity:0.54;"/>
