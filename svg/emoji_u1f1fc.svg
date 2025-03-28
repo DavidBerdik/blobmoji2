@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"><text style="line-height:1.25;-inkscape-font-specification:'Comic Neue';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" x="64" y="118.96" font-weight="400" font-size="18.667" font-family="Comic Neue" letter-spacing="0" word-spacing="0" fill="#40c0e7"><tspan x="64" y="118.96" style="-inkscape-font-specification:'Comic Neue Bold';text-align:center" font-weight="700" font-size="160" text-anchor="middle">W</tspan></text></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="128"
+   height="128"
+   version="1.1"
+   id="svg6"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <g
+     aria-label="W"
+     id="text4"
+     style="line-height:1.25;fill:#40c0e7">
+    <path
+       d="m 33.51999,119.92 c 3.68,0 6.24,-1.12 7.68,-5.44 l 21.92,-67.840001 18.72,67.520001 c 0.96,3.68 3.52,5.76 7.68,5.76 3.36,0 6.08,-1.92 7.2,-5.12 l 33.76,-93.440001 c 0.8,-2.4 0.8,-3.84 0.8,-5.12 0,-4 -3.36,-7.0399999 -7.68,-7.0399999 -3.84,0 -6.4,2.0799999 -7.68,5.5999999 l -25.6,70.88 -19.04,-69.12 c -1.12,-3.84 -3.84,-5.6 -7.36,-5.6 -3.68,0 -6.4,1.6 -7.68,5.44 l -22.4,69.12 -20.96,-68.96 c -1.12,-3.52 -3.6799998,-5.6 -7.6799998,-5.6 -4.31999997,0 -7.68,3.04 -7.68,7.04 0,1.28 0,2.24 0.8,5.12 L 26.15999,114.48 c 1.12,3.52 3.36,5.44 7.36,5.44 z"
+       style="text-align:center;text-anchor:middle"
+       id="path12" />
+  </g>
+</svg>

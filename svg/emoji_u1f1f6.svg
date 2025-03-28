@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"><text style="line-height:1.25;-inkscape-font-specification:'Comic Neue';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" x="64" y="118.96" font-weight="400" font-size="18.667" font-family="Comic Neue" letter-spacing="0" word-spacing="0" fill="#40c0e7"><tspan x="64" y="118.96" style="-inkscape-font-specification:'Comic Neue Bold';text-align:center" font-weight="700" font-size="160" text-anchor="middle">Q</tspan></text></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="128"
+   height="128"
+   version="1.1"
+   id="svg6"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <g
+     aria-label="Q"
+     id="text4"
+     style="line-height:1.25;fill:#40c0e7">
+    <path
+       d="m 105.68002,123.12 c 3.84,0 7.84,-2.72 7.84,-7.68 0,-2.4 -0.8,-5.12 -3.36,-6.72 l -11.519996,-7.36 c 9.439996,-10.560001 14.719996,-24.320001 14.719996,-40.000001 0,-27.52 -19.359996,-50.56 -45.759996,-50.56 -28.16,0 -52.8,26.72 -52.8,58.72 0,27.2 19.2,50.400001 45.76,50.400001 9.28,0 18.08,-2.88 25.92,-8 L 101.36002,122 c 1.28,0.8 2.56,1.12 4.32,1.12 z M 60.560024,104.4 c -16.96,0 -29.28,-15.680001 -29.28,-35.520001 0,-23.52 16.64,-42.56 35.2,-42.56 17.6,0 30.4,17.44 30.4,35.52 0,11.68 -4.8,22.72 -11.68,30.56 l -10.88,-7.2 c -1.6,-1.12 -3.68,-1.6 -5.12,-1.6 -4,0 -7.68,3.36 -7.68,7.84 0,2.56 0.48,4.48 3.52,6.56 l 6.4,4.320001 c -3.36,1.28 -7.04,2.08 -10.88,2.08 z"
+       style="text-align:center;text-anchor:middle"
+       id="path12" />
+  </g>
+</svg>

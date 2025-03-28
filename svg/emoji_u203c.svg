@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1,0,0,1,25.372,113.062)">
-        <text x="0px" y="0px" style="font-family:'ComicNeue-Bold', 'Comic Neue';font-weight:700;font-size:148px;fill:rgb(219,68,55);">!!</text>
+<svg
+   width="100%"
+   height="100%"
+   viewBox="0 0 128 128"
+   version="1.1"
+   xml:space="preserve"
+   style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
+   id="svg6"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs10" />
+    <g
+   transform="translate(25.372,113.062)"
+   id="g4">
+        <g
+   aria-label="!!"
+   id="text2"
+   style="fill:#db4437"><path
+     d="m 19.98,-23.976 c 4.144,0 7.252,-3.256 7.252,-7.252 v -60.384 c 0,-3.848 -3.108,-7.4 -7.252,-7.4 -3.996,0 -7.252,3.552 -7.252,7.4 v 60.384 c 0,3.996 3.256,7.252 7.252,7.252 z M 18.796,0.888 c 4.292,0 8.732,-4.144 8.732,-9.62 0,-4.292 -3.108,-8.288 -7.696,-8.288 -4.44,0 -8.732,4.588 -8.732,9.62 0,4.588 3.108,8.288 7.696,8.288 z"
+     id="path12" /><path
+     d="m 58.607953,-23.976 c 4.144,0 7.252,-3.256 7.252,-7.252 v -60.384 c 0,-3.848 -3.108,-7.4 -7.252,-7.4 -3.996,0 -7.252,3.552 -7.252,7.4 v 60.384 c 0,3.996 3.256,7.252 7.252,7.252 z m -1.184,24.864 c 4.292,0 8.732,-4.144 8.732,-9.62 0,-4.292 -3.108,-8.288 -7.696,-8.288 -4.44,0 -8.732,4.588 -8.732,9.62 0,4.588 3.108,8.288 7.696,8.288 z"
+     id="path14" /></g>
     </g>
 </svg>

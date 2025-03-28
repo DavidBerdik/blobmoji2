@@ -4,28 +4,10 @@
    height="128"
    version="1.1"
    id="svg1319"
-   sodipodi:docname="emoji_u1f170.svg"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs1323" />
-  <sodipodi:namedview
-     id="namedview1321"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="5.2149125"
-     inkscape:cx="87.633301"
-     inkscape:cy="57.047937"
-     inkscape:current-layer="svg1319" />
   <g
      transform="matrix(5.71429,0,0,7.05882,-18.857205,-24.23525)"
      id="g4"
@@ -44,22 +26,13 @@
        style="fill:#ef9a9a"
        id="path10" />
   </g>
-  <text
-     style="line-height:1.25"
-     x="33.856"
-     y="96.976"
-     font-weight="400"
-     font-size="40"
-     font-family="sans-serif"
-     letter-spacing="0"
-     word-spacing="0"
-     id="text1317"><tspan
-       x="33.856"
-       y="96.976"
-       style="-inkscape-font-specification:'Comic Neue Bold'"
-       font-weight="700"
-       font-size="96"
-       font-family="Comic Neue"
-       fill="#fff"
-       id="tspan1315">A</tspan></text>
+  <g
+     aria-label="A"
+     id="text1317"
+     style="line-height:1.25">
+    <path
+       d="m 81.279999,97.647998 c 2.88,0 4.8,-2.208 4.8,-4.608 0,-1.152 -0.288,-1.824 -0.672,-2.976 l -19.104,-55.392 c -0.768,-2.304 -2.592,-3.168 -4.416,-3.168 -1.92,0 -3.744,1.056 -4.512,2.976 l -14.208,36.096 -3.552,0.768 c -2.112,0.48 -3.648,2.304 -3.648,4.608 0,2.016 0.96,3.456 2.496,4.224 0.288,0.192 0.576,0.288 0.864,0.384 l -3.84,9.6 c -0.384,0.96 -0.672,2.016 -0.672,2.88 0,2.496 2.208,4.512 4.8,4.512 2.304,0 3.744,-1.44 4.416,-3.072 l 6.24,-15.744 19.584,-4.32 6.912,19.968 c 0.672,2.112 2.112,3.264 4.512,3.264 z m -26.976,-29.472 7.2,-18.144 5.184,15.456 z"
+       style="fill:#ffffff"
+       id="path11" />
+  </g>
 </svg>

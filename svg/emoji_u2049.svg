@@ -5,40 +5,21 @@
    viewBox="0 0 128 128"
    version="1.1"
    xml:space="preserve"
-   style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+   style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
    id="svg30959"
-   sodipodi:docname="emoji_u2049.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><defs
-   id="defs30963" /><sodipodi:namedview
-   id="namedview30961"
-   pagecolor="#ffffff"
-   bordercolor="#000000"
-   borderopacity="0.25"
-   inkscape:showpageshadow="2"
-   inkscape:pageopacity="0.0"
-   inkscape:pagecheckerboard="0"
-   inkscape:deskcolor="#d1d1d1"
-   showgrid="false"
-   inkscape:zoom="2.9996795"
-   inkscape:cx="110.84517"
-   inkscape:cy="87.676032"
-   inkscape:window-width="1366"
-   inkscape:window-height="697"
-   inkscape:window-x="-8"
-   inkscape:window-y="-8"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="svg30959" />
+   id="defs30963" />
     <g
-   transform="matrix(1,0,0,1,25.372,113.062)"
+   transform="translate(25.372,113.062)"
    id="g30957">
-        <text
-   x="-16.668447"
-   y="0"
-   style="font-weight:700;font-size:148px;font-family:ComicNeue-Bold, 'Comic Neue';fill:#db4437"
-   id="text30955">!?</text>
+        <g
+   aria-label="!?"
+   id="text30955"
+   style="fill:#db4437"><path
+     d="m 3.3115525,-23.976 c 4.144,0 7.2520005,-3.256 7.2520005,-7.252 v -60.384 c 0,-3.848 -3.1080005,-7.4 -7.2520005,-7.4 -3.99599999,0 -7.252,3.552 -7.252,7.4 v 60.384 c 0,3.996 3.25600001,7.252 7.252,7.252 z m -1.184,24.864 c 4.292,0 8.7320005,-4.144 8.7320005,-9.62 0,-4.292 -3.1080005,-8.288 -7.6960005,-8.288 -4.44,0 -8.732,4.588 -8.732,9.62 0,4.588 3.108,8.288 7.696,8.288 z"
+     id="path7" /><path
+     d="m 46.527505,-22.644 c 2.516,0 6.216,-2.812 10.064,-6.216 0.148,-0.148 7.4,-6.66 13.468,-12.284 5.18,-4.736 16.132,-12.876 16.132,-29.156 0,-18.648 -13.32,-31.08 -33.004,-31.08 -11.396,0 -20.424,6.512 -24.568,11.1 -1.48,1.628 -3.7,4.44 -3.7,6.808 0,4.292 3.404,7.104 7.104,7.104 1.776,0 3.552,-0.592 4.736,-1.924 3.7,-4.144 8.732,-9.176 16.428,-9.176 14.208,0 19.24,8.88 19.24,17.168 0,6.068 -5.92,13.468 -12.876,20.276 -7.696,7.548 -13.912,11.988 -17.464,15.096 -1.628,1.332 -2.516,3.404 -2.516,5.328 0,3.848 3.108,6.956 6.956,6.956 z m -4.588,23.532 c 4.588,0 8.732,-4.292 8.732,-9.62 0,-4.588 -3.256,-8.288 -7.696,-8.288 -4.44,0 -8.732,4.588 -8.732,9.472 0,4.736 3.108,8.436 7.696,8.436 z"
+     id="path9" /></g>
     </g>
 </svg>
