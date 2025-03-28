@@ -41,7 +41,7 @@
             <path d="M11.15,100.99L8.62,95.95L32.71,81.49L37.12,90.26L11.15,100.99Z" style="fill:rgb(68,68,68);fill-rule:nonzero;"/>
         </g>
         <path d="M45.49,82.7C45.43,81.75 43.92,81.64 43.99,82.61C44.22,86.11 41.53,88.68 38.02,88.21C37.06,88.08 36.97,89.58 37.93,89.71C42.15,90.27 45.77,86.98 45.49,82.7ZM34.36,88.53L11.59,98.31C11,98.56 11.51,99.43 12.09,99.17L34.86,89.39C35.46,89.14 34.95,88.28 34.36,88.53Z" style="fill:white;fill-rule:nonzero;"/>
-        <path d="M11.64,97.8L11.64,128" style="fill:none;fill-rule:nonzero;stroke:rgb(68,68,68);stroke-width:3.13px;"/>
+        <path d="M11.64,97.8L11.64,128" style="fill:none;fill-rule:nonzero;stroke:rgb(68,68,68);stroke-width:3.13;"/>
         <path d="M12.18,99.57L4.85,103.84L2.97,100.78L10.29,96.51L12.18,99.57Z" style="fill:rgb(68,68,68);fill-rule:nonzero;"/>
     </g>
 </svg>

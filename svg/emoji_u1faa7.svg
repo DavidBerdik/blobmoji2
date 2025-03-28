@@ -5,8 +5,8 @@
     <g>
         <path d="M106.27,86.67L17.45,86.67C16.89,86.67 16.44,86.22 16.44,85.66L16.44,14.01C16.44,13.45 16.89,13 17.45,13L106.27,13C106.83,13 107.28,13.45 107.28,14.01L107.28,85.66C107.28,86.22 106.83,86.67 106.27,86.67Z" style="fill:rgb(224,224,224);fill-rule:nonzero;"/>
         <g>
-            <path d="M40.24,38.25L83.28,38.25" style="fill:none;fill-rule:nonzero;stroke:rgb(33,33,33);stroke-width:9px;"/>
-            <path d="M40.72,60.75L83.76,60.75" style="fill:none;fill-rule:nonzero;stroke:rgb(33,33,33);stroke-width:9px;"/>
+            <path d="M40.24,38.25L83.28,38.25" style="fill:none;fill-rule:nonzero;stroke:rgb(33,33,33);stroke-width:9;"/>
+            <path d="M40.72,60.75L83.76,60.75" style="fill:none;fill-rule:nonzero;stroke:rgb(33,33,33);stroke-width:9;"/>
         </g>
     </g>
 </svg>
