@@ -3540,6 +3540,13 @@ emoji_u303d.svg
 emoji_u3297.svg
 emoji_u3299.svg
 emoji_ufe82b.svg
+emoji_u1fa89.svg
+emoji_u1fa8f.svg
+emoji_u1fabe.svg
+emoji_u1fac6.svg
+emoji_u1fadc.svg
+emoji_u1fadf.svg
+emoji_u1fae9.svg
 
 # Blobmojis without upstream Noto:
 emoji_u1f3c3_1f9b0_200d_2640.svg
