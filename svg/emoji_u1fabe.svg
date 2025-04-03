@@ -1,1 +1,18 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86.7657" height="123.67217" viewBox="0,0,86.7657,123.67217"><g transform="translate(-197.07048,-116.14784)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill-rule="nonzero" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style=""><path d="M246.12001,218.70001c0,0 -0.14,3.66 0.21,7.6c0.35,3.94 2.53,5.21 2.39,8.8c-0.12,3.1 -4.23,4.72 -10.28,4.72c-6.05,0 -9.08,-1.69 -9.64,-4.01c-0.85,-3.52 1.76,-5.56 2.53,-8.59c0.78,-3.02 1.06,-8.02 1.06,-8.02z" fill="#855b51" stroke="none" stroke-width="1" stroke-linecap="butt"/><path d="M224.00693,142.42971c0,0 13.33854,-26.82144 13.70785,-17.19714c0.38162,9.94519 1.49543,93.71207 1.49543,93.71207" fill="none" stroke="#855b51" stroke-width="14" stroke-linecap="round"/><path d="M239.95791,122.98945l13.95713,22.18185" fill="none" stroke="#855b51" stroke-width="13.5" stroke-linecap="round"/><path d="M214.53603,163.61466l24.67417,-4.98469l26.41886,2.74157" fill="none" stroke="#855b51" stroke-width="13" stroke-linecap="round"/><path d="M238.21327,178.31948c0,0 -0.86138,0.11691 -1.86692,0.25337c-4.22924,0.57397 -33.02586,4.48208 -33.02586,4.48208" fill="none" stroke="#855b51" stroke-width="12.5" stroke-linecap="round"/><path d="M216.77912,191.03041l20.93571,-8.97241" fill="none" stroke="#855b51" stroke-width="10.5" stroke-linecap="round"/><path d="M265.87829,190.53196c0,0 -36.44767,-10.59351 -25.67115,-10.21861c16.91525,0.58847 39.8775,1.49538 39.8775,1.49538" fill="none" stroke="#855b51" stroke-width="7.5" stroke-linecap="round"/><path d="M202.32355,203.99059l35.14201,-5.73238l42.12063,5.48317" fill="none" stroke="#855b51" stroke-width="8.5" stroke-linecap="round"/><path d="M216.28067,213.71075l22.43108,-12.71095l23.42802,9.47089" fill="none" stroke="#855b51" stroke-width="11" stroke-linecap="round"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130" height="130" version="1.1" viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-175.45 -113)">
+  <g stroke-miterlimit="10" data-paper-data='{"isPaintingLayer":true}'>
+   <path d="m246.12 218.7s-0.14 3.66 0.21 7.6 2.53 5.21 2.39 8.8c-0.12 3.1-4.23 4.72-10.28 4.72s-9.08-1.69-9.64-4.01c-0.85-3.52 1.76-5.56 2.53-8.59 0.78-3.02 1.06-8.02 1.06-8.02z" fill="#855b51"/>
+   <g fill="none" stroke="#855b51" stroke-linecap="round">
+    <path d="m224.01 142.43s13.339-26.821 13.708-17.197c0.38162 9.9452 1.4954 93.712 1.4954 93.712" stroke-width="14"/>
+    <path d="m239.96 122.99 13.957 22.182" stroke-width="13.5"/>
+    <path d="m214.54 163.61 24.674-4.9847 26.419 2.7416" stroke-width="13"/>
+    <path d="m238.21 178.32s-0.86138 0.11691-1.8669 0.25337c-4.2292 0.57397-33.026 4.4821-33.026 4.4821" stroke-width="12.5"/>
+    <path d="m216.78 191.03 20.936-8.9724" stroke-width="10.5"/>
+    <path d="m265.88 190.53s-36.448-10.594-25.671-10.219c16.915 0.58847 39.878 1.4954 39.878 1.4954" stroke-width="7.5"/>
+    <path d="m202.32 203.99 35.142-5.7324 42.121 5.4832" stroke-width="8.5"/>
+    <path d="m216.28 213.71 22.431-12.711 23.428 9.4709" stroke-width="11"/>
+   </g>
+  </g>
+ </g>
+</svg>
