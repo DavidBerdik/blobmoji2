@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" version="1.1" viewBox="0 0 128 128">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 128 128">
  <g transform="scale(1.0666666666666667)"><g transform="translate(-180,-120)">
   <g stroke-miterlimit="10" data-paper-data="{&quot;isPaintingLayer&quot;:true}">
    <path d="m250.17 166.47c0.36992-5.1789-6.2886-7.8608-9.1555-11.283-10.913-12.947 1.5722-29.594 15.814-21.27 11.375-18.588 42.633-4.809 31.998 19.606 12.947 3.6067 11.19 20.346-0.18497 23.675 0.83233 12.3-15.999 16.276-20.623 6.8435-2.127-4.1616-5.4081-10.893-9.2922-8.9507s-8.9263-1.9619-8.5564-8.6205z" fill="#729a24" />
