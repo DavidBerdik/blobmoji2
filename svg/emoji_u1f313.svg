@@ -1,2 +1,11 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128"><defs><path id="a" d="M127.76 64c0 35.22-28.54 63.77-63.77 63.77C28.79 127.76.24 99.22.24 64 .24 28.79 28.79.24 64 .24c35.22 0 63.76 28.55 63.76 63.76z" /></defs><use ns1:href="#a" overflow="visible" fill="#2f2f2f" /><clipPath id="b"><use ns1:href="#a" overflow="visible" /></clipPath><path clip-path="url(#b)" fill="#fcc21b" d="M64-17.32h88.89v158.99H64z" /></svg>
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">
+  <defs>
+    <path id="a" d="M127.76 64c0 35.22-28.54 63.77-63.77 63.77C28.79 127.76.24 99.22.24 64 .24 28.79 28.79.24 64 .24c35.22 0 63.76 28.55 63.76 63.76z"/>
+  </defs>
+  <use ns1:href="#a" overflow="visible" fill="#2f2f2f"/>
+  <clipPath id="b">
+    <use ns1:href="#a" overflow="visible"/>
+  </clipPath>
+  <path clip-path="url(#b)" fill="#fcc21b" d="M64-17.32h88.89v158.99H64z"/>
+</svg>

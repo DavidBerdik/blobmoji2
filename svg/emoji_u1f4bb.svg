@@ -1,21 +1,21 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:ns3="http://www.w3.org/1999/xlink" width="128" height="128" version="1.1" id="svg20" ns1:docname="emoji_u1f4bb.svg.2023_04_29_19_44_11.0.svg" ns2:version="1.2.2 (b0a8486541, 2022-12-01)" viewBox="0 0 128 128">
-  <ns1:namedview id="namedview22" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns2:showpageshadow="2" ns2:pageopacity="0.0" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" showgrid="false" ns2:zoom="1.3037281" ns2:cx="434.90663" ns2:cy="153.78973" ns2:current-layer="svg20" />
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:ns3="http://www.w3.org/1999/xlink" version="1.1" id="svg20" ns1:docname="emoji_u1f4bb.svg.2023_04_29_19_44_11.0.svg" ns2:version="1.2.2 (b0a8486541, 2022-12-01)" viewBox="0 0 128 128">
+  <ns1:namedview id="namedview22" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns2:showpageshadow="2" ns2:pageopacity="0.0" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" showgrid="false" ns2:zoom="1.3037281" ns2:cx="434.90663" ns2:cy="153.78973" ns2:current-layer="svg20"/>
   <g fill="#78a3ad" id="g4" transform="translate(11.850191,-1.5184554)">
-    <path d="M 103.66,77.8 V 11.24 c 0,-3.14 -2.57,-5.71 -5.7,-5.71 H 6.35 c -3.14,0 -5.71,2.57 -5.71,5.71 v 66.57 z" id="path356" ns1:nodetypes="ccssccc" style="fill:#2b3b40" />
-    <path d="m 0.64,77.81 -10.4,41.55001 c -0.21,1.04 0.48,1.90009 1.55,1.9 l 120.72,-0.01 c 1.06,-9e-5 1.76,-0.85 1.55,-1.9 L 103.66,77.8 Z" id="path354" ns1:nodetypes="ccssccc" style="fill:#5a818e" />
-    <path id="rect474" style="fill:#86a8b4;stroke-width:5.8178" d="m 36.149811,98.290146 h 32 l 2.999998,20.000004 h -38 z" ns1:nodetypes="ccccc" />
-    <path id="path581" style="fill:#6593a2;stroke-width:5.8178" d="M 36.149811,98.290146 H 51.64981 l -2e-6,4.000004 H 35.54981 Z" ns1:nodetypes="ccccc" />
-    <path id="path583" style="fill:#6593a2;stroke-width:5.8178" d="M 68.149809,98.290146 H 52.649808 l 2e-6,4.000004 h 16.099999 z" ns1:nodetypes="ccccc" />
+    <path d="M 103.66,77.8 V 11.24 c 0,-3.14 -2.57,-5.71 -5.7,-5.71 H 6.35 c -3.14,0 -5.71,2.57 -5.71,5.71 v 66.57 z" id="path356" ns1:nodetypes="ccssccc" style="fill:#2b3b40"/>
+    <path d="m 0.64,77.81 -10.4,41.55001 c -0.21,1.04 0.48,1.90009 1.55,1.9 l 120.72,-0.01 c 1.06,-9e-5 1.76,-0.85 1.55,-1.9 L 103.66,77.8 Z" id="path354" ns1:nodetypes="ccssccc" style="fill:#5a818e"/>
+    <path id="rect474" style="fill:#86a8b4;stroke-width:5.8178" d="m 36.149811,98.290146 h 32 l 2.999998,20.000004 h -38 z" ns1:nodetypes="ccccc"/>
+    <path id="path581" style="fill:#6593a2;stroke-width:5.8178" d="M 36.149811,98.290146 H 51.64981 l -2e-6,4.000004 H 35.54981 Z" ns1:nodetypes="ccccc"/>
+    <path id="path583" style="fill:#6593a2;stroke-width:5.8178" d="M 68.149809,98.290146 H 52.649808 l 2e-6,4.000004 h 16.099999 z" ns1:nodetypes="ccccc"/>
   </g>
   <defs id="defs7">
-    <path id="a" d="M12.47 63.07c-2.4 0-4.35-1.96-4.35-4.36V18.12c0-2.4 1.95-4.36 4.35-4.36h79.36c2.39 0 4.35 1.96 4.35 4.36v40.59c0 2.4-1.96 4.36-4.35 4.36H12.47z" />
+    <path id="a" d="M12.47 63.07c-2.4 0-4.35-1.96-4.35-4.36V18.12c0-2.4 1.95-4.36 4.35-4.36h79.36c2.39 0 4.35 1.96 4.35 4.36v40.59c0 2.4-1.96 4.36-4.35 4.36H12.47z"/>
   </defs>
-  <use ns3:href="#a" overflow="visible" fill="#006ca2" id="use9" transform="translate(11.85,-1.5184554)" style="fill:#0c5e9f" />
+  <use ns3:href="#a" overflow="visible" fill="#006ca2" id="use9" transform="translate(11.85,-1.5184554)" style="fill:#0c5e9f"/>
   <clipPath id="b">
-    <use ns3:href="#a" overflow="visible" id="use11" />
+    <use ns3:href="#a" overflow="visible" id="use11"/>
   </clipPath>
-  <path clip-path="url(#b)" fill="#ffffff" d="M 50.73,11.35 32.85,68.11 5.22,67.83 V 11.92 Z" id="path14" transform="translate(11.85,-1.5184554)" style="fill:#197cb7" />
-  <path d="M 18.782493,81.396546 H 109.2025 c 1.07,0 1.94,0.87 1.94,1.94 0,1.07 -0.87,1.94 -1.94,1.94 H 18.782493 c -1.06,0 -1.94,-0.87 -1.94,-1.94 0,-1.08 0.88,-1.94 1.94,-1.94 z M 111.0625,94.62655 H 16.932493 c -1.07,0 -1.94,-0.87 -1.94,-1.94 0,-1.07 0.87,-1.94 1.94,-1.94 H 111.0725 c 2.58667,0.0067 2.57667,3.886667 -0.01,3.88 z" fill="#ffffff" id="path16" ns1:nodetypes="ssssssscssscc" style="fill:#2b3b40" />
-  <path d="m 103.49,16.781545 v 40.22 H 24.51 v -40.22 h 78.98 m 0.2,-4.54 H 24.32 c -2.4,0 -4.35,1.96 -4.35,4.36 v 40.59 c 0,2.4 1.95,4.36 4.35,4.36 h 79.36 c 2.39,0 4.35,-1.96 4.35,-4.36 v -40.59 c 0,-2.4 -1.96,-4.36 -4.34,-4.36 z" fill="#006ca2" id="path18" style="fill:#0c5e9f" />
+  <path clip-path="url(#b)" fill="#ffffff" d="M 50.73,11.35 32.85,68.11 5.22,67.83 V 11.92 Z" id="path14" transform="translate(11.85,-1.5184554)" style="fill:#197cb7"/>
+  <path d="M 18.782493,81.396546 H 109.2025 c 1.07,0 1.94,0.87 1.94,1.94 0,1.07 -0.87,1.94 -1.94,1.94 H 18.782493 c -1.06,0 -1.94,-0.87 -1.94,-1.94 0,-1.08 0.88,-1.94 1.94,-1.94 z M 111.0625,94.62655 H 16.932493 c -1.07,0 -1.94,-0.87 -1.94,-1.94 0,-1.07 0.87,-1.94 1.94,-1.94 H 111.0725 c 2.58667,0.0067 2.57667,3.886667 -0.01,3.88 z" fill="#ffffff" id="path16" ns1:nodetypes="ssssssscssscc" style="fill:#2b3b40"/>
+  <path d="m 103.49,16.781545 v 40.22 H 24.51 v -40.22 h 78.98 m 0.2,-4.54 H 24.32 c -2.4,0 -4.35,1.96 -4.35,4.36 v 40.59 c 0,2.4 1.95,4.36 4.35,4.36 h 79.36 c 2.39,0 4.35,-1.96 4.35,-4.36 v -40.59 c 0,-2.4 -1.96,-4.36 -4.34,-4.36 z" fill="#006ca2" id="path18" style="fill:#0c5e9f"/>
 </svg>

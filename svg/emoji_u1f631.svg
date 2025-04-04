@@ -1,33 +1,33 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:ns3="http://www.w3.org/1999/xlink" width="128" height="128" style="enable-background:new 0 0 128 128;" version="1.1" id="svg21610" ns1:docname="emoji_u1f631.svg" ns2:version="1.2.2 (732a01da63, 2022-12-09)" viewBox="0 0 128 128">
-  <defs id="defs21614" />
-  <ns1:namedview id="namedview21612" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns2:showpageshadow="2" ns2:pageopacity="0.0" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" showgrid="false" ns2:zoom="4.2421875" ns2:cx="66.828729" ns2:cy="66.003683" ns2:window-width="1366" ns2:window-height="697" ns2:window-x="-8" ns2:window-y="-8" ns2:window-maximized="1" ns2:current-layer="svg21610" />
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:ns3="http://www.w3.org/1999/xlink" style="enable-background:new 0 0 128 128;" version="1.1" id="svg21610" ns1:docname="emoji_u1f631.svg" ns2:version="1.2.2 (732a01da63, 2022-12-09)" viewBox="0 0 128 128">
+  <defs id="defs21614"/>
+  <ns1:namedview id="namedview21612" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns2:showpageshadow="2" ns2:pageopacity="0.0" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" showgrid="false" ns2:zoom="4.2421875" ns2:cx="66.828729" ns2:cy="66.003683" ns2:window-width="1366" ns2:window-height="697" ns2:window-x="-8" ns2:window-y="-8" ns2:window-maximized="1" ns2:current-layer="svg21610"/>
   <g id="g21574">
     <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="64" x2="64" y1="66.666603" y2="4.2761998">
-      <stop offset="0" style="stop-color:#FCC21B" id="stop21561" />
-      <stop offset="0.1512" style="stop-color:#E5BF34" id="stop21563" />
-      <stop offset="0.4726" style="stop-color:#ABB973" id="stop21565" />
-      <stop offset="0.9352" style="stop-color:#4FAFD8" id="stop21567" />
-      <stop offset="1" style="stop-color:#42ADE7" id="stop21569" />
+      <stop offset="0" style="stop-color:#FCC21B" id="stop21561"/>
+      <stop offset="0.1512" style="stop-color:#E5BF34" id="stop21563"/>
+      <stop offset="0.4726" style="stop-color:#ABB973" id="stop21565"/>
+      <stop offset="0.9352" style="stop-color:#4FAFD8" id="stop21567"/>
+      <stop offset="1" style="stop-color:#42ADE7" id="stop21569"/>
     </linearGradient>
-    <path d="M 64,9.64 C 1.69,9.64 0.21,79.5 0.21,93.33 c 0,13.83 28.56,25.03 63.79,25.03 35.24,0 63.79,-11.21 63.79,-25.03 C 127.79,79.5 126.32,9.64 64,9.64 Z" style="fill:url(#SVGID_1_)" id="path21572" />
+    <path d="M 64,9.64 C 1.69,9.64 0.21,79.5 0.21,93.33 c 0,13.83 28.56,25.03 63.79,25.03 35.24,0 63.79,-11.21 63.79,-25.03 C 127.79,79.5 126.32,9.64 64,9.64 Z" style="fill:url(#SVGID_1_)" id="path21572"/>
   </g>
-  <path d="m 80.46,90.47 c 0,14.09 -7.37,20.03 -16.46,20.03 -9.09,0 -16.46,-5.94 -16.46,-20.03 0,-14.09 7.37,-31 16.46,-31 9.09,0 16.46,16.91 16.46,31 z" style="fill:#ed6c30" id="path21576" />
-  <path d="M 64,9.64 C 1.69,9.64 0.21,79.5 0.21,93.33 c 0,13.83 28.56,25.03 63.79,25.03 35.24,0 63.79,-11.21 63.79,-25.03 C 127.79,79.5 126.32,9.64 64,9.64 Z" style="fill:none" id="path21592" />
+  <path d="m 80.46,90.47 c 0,14.09 -7.37,20.03 -16.46,20.03 -9.09,0 -16.46,-5.94 -16.46,-20.03 0,-14.09 7.37,-31 16.46,-31 9.09,0 16.46,16.91 16.46,31 z" style="fill:#ed6c30" id="path21576"/>
+  <path d="M 64,9.64 C 1.69,9.64 0.21,79.5 0.21,93.33 c 0,13.83 28.56,25.03 63.79,25.03 35.24,0 63.79,-11.21 63.79,-25.03 C 127.79,79.5 126.32,9.64 64,9.64 Z" style="fill:none" id="path21592"/>
   <g id="g21600">
     <defs id="defs21595">
-      <path id="SVGID_2_" d="M 64,9.64 C 1.69,9.64 0.21,79.5 0.21,93.33 c 0,13.83 28.56,25.03 63.79,25.03 35.24,0 63.79,-11.21 63.79,-25.03 C 127.79,79.5 126.32,9.64 64,9.64 Z" />
+      <path id="SVGID_2_" d="M 64,9.64 C 1.69,9.64 0.21,79.5 0.21,93.33 c 0,13.83 28.56,25.03 63.79,25.03 35.24,0 63.79,-11.21 63.79,-25.03 C 127.79,79.5 126.32,9.64 64,9.64 Z"/>
     </defs>
     <clipPath id="SVGID_3_">
-      <use style="overflow:visible" ns3:href="#SVGID_2_" id="use21597" />
+      <use style="overflow:visible" ns3:href="#SVGID_2_" id="use21597"/>
     </clipPath>
   </g>
   <g id="g21608">
-    <path d="M29.08,121.23c4.69,1.33,10.12-0.73,10.24-5.2l0.66-14.77c0.02-0.24,1.08-16.03-7.09-24.46 l-0.12-0.13c-5.75-6.76-8.27-11.55-10.85-19.98c-0.86-2.79-2.89-5.41-6.38-4.99c-2.47,0.3-4.85,1.35-4.69,9.23 c0.19,9.18,2.02,18.32,5.7,24.72c5.14,8.95,3.8,19.17,4.36,25.72C21.25,115.48,24.14,120,29.08,121.23L29.08,121.23z" style="fill:#E48C15;" id="path21604" />
-    <path d="M98.92,121.23c-4.69,1.33-10.12-0.73-10.24-5.2l-0.66-14.77c-0.02-0.24-1.08-16.03,7.09-24.46 l0.12-0.13c5.75-6.76,8.27-11.55,10.85-19.98c0.86-2.79,2.89-5.41,6.38-4.99c2.47,0.3,4.85,1.35,4.69,9.23 c-0.19,9.18-2.02,18.32-5.7,24.72c-5.14,8.95-3.8,19.17-4.36,25.72C106.75,115.48,103.86,120,98.92,121.23L98.92,121.23z" style="fill:#E48C15;" id="path21606" />
+    <path d="M29.08,121.23c4.69,1.33,10.12-0.73,10.24-5.2l0.66-14.77c0.02-0.24,1.08-16.03-7.09-24.46 l-0.12-0.13c-5.75-6.76-8.27-11.55-10.85-19.98c-0.86-2.79-2.89-5.41-6.38-4.99c-2.47,0.3-4.85,1.35-4.69,9.23 c0.19,9.18,2.02,18.32,5.7,24.72c5.14,8.95,3.8,19.17,4.36,25.72C21.25,115.48,24.14,120,29.08,121.23L29.08,121.23z" style="fill:#E48C15;" id="path21604"/>
+    <path d="M98.92,121.23c-4.69,1.33-10.12-0.73-10.24-5.2l-0.66-14.77c-0.02-0.24-1.08-16.03,7.09-24.46 l0.12-0.13c5.75-6.76,8.27-11.55,10.85-19.98c0.86-2.79,2.89-5.41,6.38-4.99c2.47,0.3,4.85,1.35,4.69,9.23 c-0.19,9.18-2.02,18.32-5.7,24.72c-5.14,8.95-3.8,19.17-4.36,25.72C106.75,115.48,103.86,120,98.92,121.23L98.92,121.23z" style="fill:#E48C15;" id="path21606"/>
   </g>
-  <ellipse cx="-35.503174" cy="90.427147" rx="20.552166" ry="19.17872" style="fill:#ffffff;stroke-width:1.00003" transform="rotate(-83.650318)" id="ellipse21769" />
-  <path d="m 90.753242,45.14887 c -0.159004,2.28137 -2.170757,4.023507 -4.486693,3.885242 -2.322849,-0.131352 -4.078812,-2.101626 -3.919808,-4.382995 0.152091,-2.288283 2.156931,-4.023506 4.47978,-3.885242 2.322849,0.131352 4.085726,2.094712 3.926721,4.382995" style="fill:#2f2f2f;stroke-width:1" id="path21765" />
-  <ellipse cx="38.935886" cy="48.364891" rx="19.178658" ry="20.552099" style="fill:#ffffff;stroke-width:1.00003" transform="rotate(-4.3125781)" id="ellipse21771" />
-  <path d="m 47.154979,44.26645 c 0.262703,2.274456 -1.389562,4.355341 -3.691671,4.645698 -2.309022,0.297269 -4.396821,-1.313516 -4.659524,-3.581059 -0.27653,-2.274457 1.375735,-4.355342 3.684757,-4.652612 2.302109,-0.290356 4.396821,1.313516 4.666438,3.587973" style="fill:#2f2f2f;stroke-width:1" id="path21767" />
+  <ellipse cx="-35.503174" cy="90.427147" rx="20.552166" ry="19.17872" style="fill:#ffffff;stroke-width:1.00003" transform="rotate(-83.650318)" id="ellipse21769"/>
+  <path d="m 90.753242,45.14887 c -0.159004,2.28137 -2.170757,4.023507 -4.486693,3.885242 -2.322849,-0.131352 -4.078812,-2.101626 -3.919808,-4.382995 0.152091,-2.288283 2.156931,-4.023506 4.47978,-3.885242 2.322849,0.131352 4.085726,2.094712 3.926721,4.382995" style="fill:#2f2f2f;stroke-width:1" id="path21765"/>
+  <ellipse cx="38.935886" cy="48.364891" rx="19.178658" ry="20.552099" style="fill:#ffffff;stroke-width:1.00003" transform="rotate(-4.3125781)" id="ellipse21771"/>
+  <path d="m 47.154979,44.26645 c 0.262703,2.274456 -1.389562,4.355341 -3.691671,4.645698 -2.309022,0.297269 -4.396821,-1.313516 -4.659524,-3.581059 -0.27653,-2.274457 1.375735,-4.355342 3.684757,-4.652612 2.302109,-0.290356 4.396821,1.313516 4.666438,3.587973" style="fill:#2f2f2f;stroke-width:1" id="path21767"/>
 </svg>

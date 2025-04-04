@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
   <path class="st0" d="M84.7 42.3l-40.3-5.5c-1.4-.2-2.9-.1-4.3.2-2.2.5-2.6 3.5-.6 4.6l19.9 10.1 25.3-9.4z" style="fill: #0f6da0"/>
   <circle class="st1" cx="73.4" cy="64.8" r="3.5" style="fill: #78a3ad"/>
   <circle class="st1" cx="110.6" cy="42" r="3.5" style="fill: #78a3ad"/>

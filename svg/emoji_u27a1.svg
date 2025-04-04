@@ -1,2 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><path d="M108.58 64L62.47 97.81V76.72H19.42V51.49h43.04v-21.3L108.58 64z" fill="#40c0e7" /></svg>
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <path d="M108.58 64L62.47 97.81V76.72H19.42V51.49h43.04v-21.3L108.58 64z" fill="#40c0e7"/>
+</svg>

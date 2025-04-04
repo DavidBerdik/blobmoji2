@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:serif="http://www.serif.com/" viewBox="0 0 128 128" version="1.1" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <rect id="path17" x="0.06" y="0" width="127.99" height="128" style="fill:none;"/>
     <path id="path19" d="M63.89,9.64C1.58,9.64 0.1,79.5 0.1,93.33C0.1,107.16 28.66,118.36 63.89,118.36C99.13,118.36 127.68,107.15 127.68,93.33C127.68,79.5 126.21,9.64 63.89,9.64Z" style="fill:url(#_Linear1);fill-rule:nonzero;"/>
     <circle id="circle57" cx="101.268" cy="7.897" r="1.186" style="fill:white;"/>

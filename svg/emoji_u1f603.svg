@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" width="128" height="128" style="enable-background:new 0 0 128 128;" version="1.1" id="svg13323" ns1:docname="emoji_u1f603.svg" ns2:version="1.2.2 (732a01da63, 2022-12-09)" viewBox="0 0 128 128">
-  <defs id="defs13327" />
-  <ns1:namedview id="namedview13325" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns2:showpageshadow="2" ns2:pageopacity="0.0" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" showgrid="false" ns2:zoom="1.4998398" ns2:cx="15.668341" ns2:cy="142.68191" ns2:window-width="1366" ns2:window-height="697" ns2:window-x="-8" ns2:window-y="-8" ns2:window-maximized="1" ns2:current-layer="svg13323" />
-  <path d="M63.79,8.64C1.48,8.64,0,78.5,0,92.33c0,13.83,28.56,25.03,63.79,25.03 c35.24,0,63.79-11.21,63.79-25.03C127.58,78.5,126.11,8.64,63.79,8.64z" style="fill:#FCC21B;" id="path13307" />
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" style="enable-background:new 0 0 128 128;" version="1.1" id="svg13323" ns1:docname="emoji_u1f603.svg" ns2:version="1.2.2 (732a01da63, 2022-12-09)" viewBox="0 0 128 128">
+  <defs id="defs13327"/>
+  <ns1:namedview id="namedview13325" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns2:showpageshadow="2" ns2:pageopacity="0.0" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" showgrid="false" ns2:zoom="1.4998398" ns2:cx="15.668341" ns2:cy="142.68191" ns2:window-width="1366" ns2:window-height="697" ns2:window-x="-8" ns2:window-y="-8" ns2:window-maximized="1" ns2:current-layer="svg13323"/>
+  <path d="M63.79,8.64C1.48,8.64,0,78.5,0,92.33c0,13.83,28.56,25.03,63.79,25.03 c35.24,0,63.79-11.21,63.79-25.03C127.58,78.5,126.11,8.64,63.79,8.64z" style="fill:#FCC21B;" id="path13307"/>
   <g id="g13313">
-    <path d="M84.57,168.14c-4.2-0.92-9.28,2.92-17.17,4.51c-1.24,0.25-2.35,0.34-3.38,0.33v20.31 c12.59,0,20.53-6.19,23.38-10.51C92.73,174.7,90.36,169.4,84.57,168.14z" style="fill:#ED6C30;" id="path13309" />
-    <path d="M43.45,168.14c4.2-0.92,9.28,2.92,17.17,4.51c1.24,0.25,2.35,0.34,3.38,0.33v20.31 c-11.84,0-20.68-6.46-23.38-10.51C35.25,174.72,37.66,169.4,43.45,168.14z" style="fill:#ED6C30;" id="path13311" />
+    <path d="M84.57,168.14c-4.2-0.92-9.28,2.92-17.17,4.51c-1.24,0.25-2.35,0.34-3.38,0.33v20.31 c12.59,0,20.53-6.19,23.38-10.51C92.73,174.7,90.36,169.4,84.57,168.14z" style="fill:#ED6C30;" id="path13309"/>
+    <path d="M43.45,168.14c4.2-0.92,9.28,2.92,17.17,4.51c1.24,0.25,2.35,0.34,3.38,0.33v20.31 c-11.84,0-20.68-6.46-23.38-10.51C35.25,174.72,37.66,169.4,43.45,168.14z" style="fill:#ED6C30;" id="path13311"/>
   </g>
-  <path d="m 96.46,70.26 c -3.09,-2.09 -6.98,-0.71 -10.42,0 -9.58,1.98 -18,2.06 -22.04,2.06 -4.04,0 -12.46,-0.08 -22.04,-2.06 -3.44,-0.71 -7.33,-2.09 -10.42,0 -3.92,2.65 -1.03,12.15 5.14,18.57 3.73,3.88 12.61,11.41 27.32,11.41 14.71,0 23.59,-7.53 27.32,-11.41 6.17,-6.42 9.05,-15.92 5.14,-18.57 z" style="fill:#ed6c30" id="path13315" />
+  <path d="m 96.46,70.26 c -3.09,-2.09 -6.98,-0.71 -10.42,0 -9.58,1.98 -18,2.06 -22.04,2.06 -4.04,0 -12.46,-0.08 -22.04,-2.06 -3.44,-0.71 -7.33,-2.09 -10.42,0 -3.92,2.65 -1.03,12.15 5.14,18.57 3.73,3.88 12.61,11.41 27.32,11.41 14.71,0 23.59,-7.53 27.32,-11.41 6.17,-6.42 9.05,-15.92 5.14,-18.57 z" style="fill:#ed6c30" id="path13315"/>
   <g id="g13321" transform="matrix(1,0,0,1.2524843,0,-15.026929)" style="stroke-width:0.89354">
-    <path d="m 42.21,61.3 c -4.49,0.04 -8.17,-4.27 -8.22,-9.62 -0.05,-5.37 3.55,-9.75 8.04,-9.79 4.48,-0.04 8.17,4.27 8.22,9.64 0.05,5.35 -3.55,9.72 -8.04,9.77 z" style="fill:#2f2f2f;stroke-width:0.742931" id="path13317" />
-    <path d="m 86.32,61.3 c 4.48,-0.01 8.11,-4.36 8.1,-9.71 -0.01,-5.37 -3.66,-9.7 -8.14,-9.69 -4.49,0.01 -8.13,4.36 -8.12,9.73 0.02,5.35 3.67,9.68 8.16,9.67 z" style="fill:#2f2f2f;stroke-width:0.742931" id="path13319" />
+    <path d="m 42.21,61.3 c -4.49,0.04 -8.17,-4.27 -8.22,-9.62 -0.05,-5.37 3.55,-9.75 8.04,-9.79 4.48,-0.04 8.17,4.27 8.22,9.64 0.05,5.35 -3.55,9.72 -8.04,9.77 z" style="fill:#2f2f2f;stroke-width:0.742931" id="path13317"/>
+    <path d="m 86.32,61.3 c 4.48,-0.01 8.11,-4.36 8.1,-9.71 -0.01,-5.37 -3.66,-9.7 -8.14,-9.69 -4.49,0.01 -8.13,4.36 -8.12,9.73 0.02,5.35 3.67,9.68 8.16,9.67 z" style="fill:#2f2f2f;stroke-width:0.742931" id="path13319"/>
   </g>
 </svg>

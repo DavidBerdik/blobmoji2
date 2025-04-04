@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
   <g id="图层_1">
     <ellipse cx="64" cy="80.8" rx="60.1" ry="37.1" fill="#fff"/>
     <path d="M64 120.4c-34.4 0-62.3-17.8-62.3-39.6s28-39.6 62.3-39.6c34.4 0 62.3 17.8 62.3 39.6S98.4 120.4 64 120.4z" fill="#757576"/>

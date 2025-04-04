@@ -1,12 +1,12 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" width="128" height="128" version="1.1" id="svg755" ns1:docname="emoji_u1f533.svg" ns2:version="1.2.2 (b0a8486541, 2022-12-01)" viewBox="0 0 128 128">
-  <defs id="defs759" />
-  <ns1:namedview id="namedview757" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns2:showpageshadow="2" ns2:pageopacity="0.0" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" showgrid="false" ns2:zoom="1.84375" ns2:cx="66.711864" ns2:cy="29.016949" ns2:current-layer="svg755" />
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="svg755" ns1:docname="emoji_u1f533.svg" ns2:version="1.2.2 (b0a8486541, 2022-12-01)" viewBox="0 0 128 128">
+  <defs id="defs759"/>
+  <ns1:namedview id="namedview757" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns2:showpageshadow="2" ns2:pageopacity="0.0" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" showgrid="false" ns2:zoom="1.84375" ns2:cx="66.711864" ns2:cy="29.016949" ns2:current-layer="svg755"/>
   <g transform="matrix(5.71429,0,0,7.05882,-18.857204,-24.235249)" id="g4" style="clip-rule:evenodd;fill:#eeeeee;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
-    <path d="M 25,6.267 C 25,5.016 23.745,4 22.2,4 H 6.8 C 5.255,4 4,5.016 4,6.267 V 18.733 C 4,19.984 5.255,21 6.8,21 h 15.4 c 1.545,0 2.8,-1.016 2.8,-2.267 z" style="fill:#eeeeee" id="path2" />
+    <path d="M 25,6.267 C 25,5.016 23.745,4 22.2,4 H 6.8 C 5.255,4 4,5.016 4,6.267 V 18.733 C 4,19.984 5.255,21 6.8,21 h 15.4 c 1.545,0 2.8,-1.016 2.8,-2.267 z" style="fill:#eeeeee" id="path2"/>
   </g>
   <g transform="translate(-2.273514,1.0471507)" id="g12" style="clip-rule:evenodd;fill:#fafafa;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
-    <path d="M 30.915,7.958 C 25.554,8.085 15,8 12.066,18.857 c -0.581,2.15 -1.578,5.57 0.285,7.423 1.433,1.425 3.932,0.985 5.373,-0.162 1.534,-1.221 2.286,-3.205 3.245,-4.857 1.114,-1.917 2.599,-3.655 4.34,-5.034 1.627,-1.289 3.482,-2.052 5.444,-2.683 1.362,-0.438 3.297,-0.632 3.969,-1.979 C 36,9 32.576,7.869 30.915,7.958 Z" style="fill:#fafafa" id="path10" />
+    <path d="M 30.915,7.958 C 25.554,8.085 15,8 12.066,18.857 c -0.581,2.15 -1.578,5.57 0.285,7.423 1.433,1.425 3.932,0.985 5.373,-0.162 1.534,-1.221 2.286,-3.205 3.245,-4.857 1.114,-1.917 2.599,-3.655 4.34,-5.034 1.627,-1.289 3.482,-2.052 5.444,-2.683 1.362,-0.438 3.297,-0.632 3.969,-1.979 C 36,9 32.576,7.869 30.915,7.958 Z" style="fill:#fafafa" id="path10"/>
   </g>
-  <path d="m 108.00004,36.002379 c 0,-8.830587 -7.17143,-16.002348 -16.000006,-16.002348 H 35.999969 c -8.828578,0 -16.000013,7.171761 -16.000013,16.002348 v 55.995246 c 0,8.830585 7.171435,16.002345 16.000013,16.002345 h 56.000065 c 8.828576,0 16.000006,-7.17176 16.000006,-16.002345 z" style="clip-rule:evenodd;fill:#424242;fill-rule:evenodd;stroke-width:6.35107;stroke-linejoin:round;stroke-miterlimit:2" id="path464" ns1:nodetypes="sssssssss" />
+  <path d="m 108.00004,36.002379 c 0,-8.830587 -7.17143,-16.002348 -16.000006,-16.002348 H 35.999969 c -8.828578,0 -16.000013,7.171761 -16.000013,16.002348 v 55.995246 c 0,8.830585 7.171435,16.002345 16.000013,16.002345 h 56.000065 c 8.828576,0 16.000006,-7.17176 16.000006,-16.002345 z" style="clip-rule:evenodd;fill:#424242;fill-rule:evenodd;stroke-width:6.35107;stroke-linejoin:round;stroke-miterlimit:2" id="path464" ns1:nodetypes="sssssssss"/>
 </svg>

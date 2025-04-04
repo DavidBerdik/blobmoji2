@@ -1,2 +1,53 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.serif.com/" width="128" height="128" version="1.1" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" viewBox="0 0 128 128"><g id="Ebene1"><rect x="84" y="0" width="4" height="128" style="fill:#e65100;" /><g transform="matrix(1,0,0,1,-56,1.42109e-14)"><rect x="84" y="0" width="4" height="128" style="fill:#e65100;" /></g></g><g transform="matrix(1,0,0,1,1.42109e-14,-4)"><g id="Ebene3"><rect x="40" y="16" width="48" height="8" style="fill:#f78c04;" /></g></g><g id="Ebene31" ns1:id="Ebene3" transform="matrix(1,0,0,1,0,16)"><g transform="matrix(1,0,0,1,-7.10543e-15,4)"><rect x="40" y="16" width="48" height="8" style="fill:#f78c04;" /></g><g transform="matrix(1,0,0,1,-7.10543e-15,28)"><rect x="40" y="16" width="48" height="8" style="fill:#f78c04;" /></g><g transform="matrix(1,0,0,1,-7.10543e-15,52)"><rect x="40" y="16" width="48" height="8" style="fill:#f78c04;" /></g><g transform="matrix(1,0,0,1,-7.10543e-15,76)"><rect x="40" y="16" width="48" height="8" style="fill:#f78c04;" /></g></g><g id="Ebene32" ns1:id="Ebene3" transform="matrix(1,0,0,1,0,32)"><g transform="matrix(8.35149,0,4,1.45588,-392.421,-37.4706)"><rect x="46.03" y="11" width="5.747" height="1" style="fill:#ffb74d;" /></g><g transform="matrix(8.35149,0,4,1.45588,-392.421,-13.4706)"><rect x="46.03" y="11" width="5.747" height="1" style="fill:#ffb74d;" /></g><g transform="matrix(8.35149,0,4,1.45588,-392.421,10.5294)"><rect x="46.03" y="11" width="5.747" height="1" style="fill:#ffb74d;" /></g><g transform="matrix(8.35149,0,4,1.45588,-392.421,34.5294)"><rect x="46.03" y="11" width="5.747" height="1" style="fill:#ffb74d;" /></g><g transform="matrix(8.35149,0,4,1.45588,-392.421,58.5294)"><rect x="46.03" y="11" width="5.747" height="1" style="fill:#ffb74d;" /></g></g><g id="Ebene2"><g transform="matrix(1,0,0,1,8,0)"><rect x="80" y="0" width="8" height="128" style="fill:#f78c04;" /></g><g transform="matrix(1,0,0,1,-48,0)"><rect x="80" y="0" width="8" height="128" style="fill:#f78c04;" /></g></g></svg>
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.serif.com/" version="1.1" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" viewBox="0 0 128 128">
+  <g id="Ebene1">
+    <rect x="84" y="0" width="4" height="128" style="fill:#e65100;"/>
+    <g transform="matrix(1,0,0,1,-56,1.42109e-14)">
+      <rect x="84" y="0" width="4" height="128" style="fill:#e65100;"/>
+    </g>
+  </g>
+  <g transform="matrix(1,0,0,1,1.42109e-14,-4)">
+    <g id="Ebene3">
+      <rect x="40" y="16" width="48" height="8" style="fill:#f78c04;"/>
+    </g>
+  </g>
+  <g id="Ebene31" ns1:id="Ebene3" transform="matrix(1,0,0,1,0,16)">
+    <g transform="matrix(1,0,0,1,-7.10543e-15,4)">
+      <rect x="40" y="16" width="48" height="8" style="fill:#f78c04;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-7.10543e-15,28)">
+      <rect x="40" y="16" width="48" height="8" style="fill:#f78c04;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-7.10543e-15,52)">
+      <rect x="40" y="16" width="48" height="8" style="fill:#f78c04;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-7.10543e-15,76)">
+      <rect x="40" y="16" width="48" height="8" style="fill:#f78c04;"/>
+    </g>
+  </g>
+  <g id="Ebene32" ns1:id="Ebene3" transform="matrix(1,0,0,1,0,32)">
+    <g transform="matrix(8.35149,0,4,1.45588,-392.421,-37.4706)">
+      <rect x="46.03" y="11" width="5.747" height="1" style="fill:#ffb74d;"/>
+    </g>
+    <g transform="matrix(8.35149,0,4,1.45588,-392.421,-13.4706)">
+      <rect x="46.03" y="11" width="5.747" height="1" style="fill:#ffb74d;"/>
+    </g>
+    <g transform="matrix(8.35149,0,4,1.45588,-392.421,10.5294)">
+      <rect x="46.03" y="11" width="5.747" height="1" style="fill:#ffb74d;"/>
+    </g>
+    <g transform="matrix(8.35149,0,4,1.45588,-392.421,34.5294)">
+      <rect x="46.03" y="11" width="5.747" height="1" style="fill:#ffb74d;"/>
+    </g>
+    <g transform="matrix(8.35149,0,4,1.45588,-392.421,58.5294)">
+      <rect x="46.03" y="11" width="5.747" height="1" style="fill:#ffb74d;"/>
+    </g>
+  </g>
+  <g id="Ebene2">
+    <g transform="matrix(1,0,0,1,8,0)">
+      <rect x="80" y="0" width="8" height="128" style="fill:#f78c04;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-48,0)">
+      <rect x="80" y="0" width="8" height="128" style="fill:#f78c04;"/>
+    </g>
+  </g>
+</svg>

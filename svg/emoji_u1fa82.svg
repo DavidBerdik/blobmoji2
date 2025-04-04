@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:serif="http://www.serif.com/" viewBox="0 0 128 128" version="1.1" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <path id="polygon25806" d="M13.685,98.242L5.87,34.14L7.62,33.18L14.565,97.462L13.685,98.242Z" style="fill:rgb(142,162,172);fill-rule:nonzero;"/>
     <path id="polygon25813" d="M27.195,104.462L27.615,103.382L93.78,77.11L94.06,79.09L27.195,104.462Z" style="fill:rgb(142,162,172);fill-rule:nonzero;"/>
     <path id="polygon25820" d="M18.945,95.452L17.945,95.432L37.9,14.07L38.9,14.09L18.945,95.452Z" style="fill:rgb(142,162,172);fill-rule:nonzero;"/>

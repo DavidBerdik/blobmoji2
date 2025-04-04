@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">
   <path class="st0" d="M80.3 56.8l44.9 23.8c.7.3 1.1 1 1.1 1.8v25.5c0 1.5-1.6 2.5-2.9 1.8L80.6 87.1c-.7-.4-1.1-1.1-1.1-1.8l.8-28.5z" style="fill: #006ca0"/>
   <path class="st1" d="M125.4 80.8L97.5 96l-11.2-5.9 28.9-14.8 10.2 5.4v.1z" style="fill: #40c0e7"/>
   <defs>
