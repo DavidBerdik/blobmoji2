@@ -17,14 +17,23 @@ for filename in os.listdir(svg_folder):
             
             # Check if the root tag is <svg>
             if root.tag == '{http://www.w3.org/2000/svg}svg':
-                # Remove width and height attributes if they exist
-                root.attrib.pop("width", None)
-                root.attrib.pop("height", None)
+                # Check for width and height attributes
+                width_exists = "width" in root.attrib
+                height_exists = "height" in root.attrib
                 
-                # Write the changes back to the file without namespaces
-                with open(file_path, 'wb') as f:
-                    f.write(etree.tostring(root, pretty_print=True, xml_declaration=True, encoding='UTF-8'))
-                print(f"Processed: {filename}")
+                # Remove width and height attributes if they exist
+                if width_exists or height_exists:
+                    if width_exists:
+                        del root.attrib["width"]
+                    if height_exists:
+                        del root.attrib["height"]
+                    
+                    # Write the changes back to the file without namespaces
+                    with open(file_path, 'wb') as f:
+                        f.write(etree.tostring(root, pretty_print=True, xml_declaration=True, encoding='UTF-8'))
+                    print(f"Processed: {filename}")
+                else:
+                    print(f"No changes made to: {filename} (no width or height attributes)")
             else:
                 print(f"Skipped (not an SVG root): {filename}")
         except etree.XMLSyntaxError:
