@@ -8,7 +8,7 @@ Noto Emoji (Stands for No Tofu) is an open source (Open Font License 1.1) emoji 
 
 ## Color Font
 
-The latest font file is found [here](https://github.com/googlefonts/noto-emoji/raw/main/fonts/NotoColorEmoji.ttf). If you want to download a specific version, please look at the gh-pages branch, where you will find the built assets for both our latest and older versions. 
+The latest font file is found [here](https://github.com/DavidBerdik/blobmoji2/releases/latest/download/NotoColorEmoji.ttf). If you want to download a specific version, please look at the gh-pages branch, where you will find the built assets for both our latest and older versions. 
 
 ## Monochrome Font
 
