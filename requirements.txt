@@ -1,4 +1,4 @@
-fonttools>=4.7.0
-notofonttools>=0.2.17
-nanoemoji >= 0.14.3
-pytest>=7.4
+fonttools>=4.59.1
+notofonttools>=0.3.2
+nanoemoji >= 0.15.8
+pytest>=8.4
