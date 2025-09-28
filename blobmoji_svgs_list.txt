@@ -3251,6 +3251,7 @@ emoji_u1fae5.svg
 emoji_u1fae6.svg
 emoji_u1fae7.svg
 emoji_u1fae8.svg
+emoji_u1faea.svg
 emoji_u1faf0.svg
 emoji_u1faf0_1f3fb.svg
 emoji_u1faf0_1f3fc.svg
