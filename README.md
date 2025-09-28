@@ -32,7 +32,3 @@ Emoji fonts (under the fonts subdirectory) are under the
 Tools and most image resources are under the [Apache license, version 2.0](./LICENSE).
 Flag images under third_party/region-flags are in the public domain or
 otherwise exempt from copyright ([more info](third_party/region-flags/LICENSE)).
-
-## Contributing
-
-Please read [CONTRIBUTING](CONTRIBUTING.md) if you are thinking of contributing to this project.
