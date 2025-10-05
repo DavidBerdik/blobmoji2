@@ -1,4 +1,4 @@
-<svg width="128" height="128" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg viewbox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg">
  <font id="font12361" horiz-adv-x="2048">
   <font-face font-family="Roboto-Bold" underline-position="-150" underline-thickness="100" units-per-em="2048"/>
   <glyph d="M801 0H512v1114l-345-107v235l603 216h31z" horiz-adv-x="1175" unicode="1"/>
