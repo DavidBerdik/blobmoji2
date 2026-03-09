@@ -8,7 +8,7 @@
    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"
    id="svg35"
    sodipodi:docname="emoji_u1f9c7.svg"
-   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -23,12 +23,12 @@
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
    inkscape:zoom="3.9260307"
-   inkscape:cx="64.186965"
-   inkscape:cy="63.55019"
-   inkscape:window-width="1366"
-   inkscape:window-height="697"
-   inkscape:window-x="-8"
-   inkscape:window-y="-8"
+   inkscape:cx="64.186966"
+   inkscape:cy="63.550191"
+   inkscape:window-width="1920"
+   inkscape:window-height="974"
+   inkscape:window-x="-11"
+   inkscape:window-y="-11"
    inkscape:window-maximized="1"
    inkscape:current-layer="svg35" />
     
@@ -230,14 +230,4 @@
      id="path16" /><path
      style="fill:#ffebc9;stroke-width:1.2526"
      d="m 43.553133,52.242173 c -1.647949,0.738181 -1.076914,3.882364 -0.750475,4.986648 0.540418,1.836125 6.40127,5.443044 8.536123,7.152736 5.410904,4.32903 11.03276,8.180951 11.878111,8.327422 0.845353,0.146472 1.180386,-3.26897 0.499463,-5.709642 -0.442502,-1.573737 -6.915101,-5.23417 -10.23298,-7.65169 -4.933034,-3.574105 -8.873342,-7.581101 -9.930242,-7.105474 z"
-     id="path17-7" /></g><text
-   xml:space="preserve"
-   style="font-size:361.318px;line-height:0.9;font-family:'Berlin Sans';-inkscape-font-specification:'Berlin Sans';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ed6c30;fill-opacity:1;stroke:none;stroke-width:6.23622;stroke-linecap:round;stroke-opacity:1"
-   x="33.105236"
-   y="349.08652"
-   id="text35"><tspan
-     sodipodi:role="line"
-     id="tspan35"
-     x="33.105236"
-     y="349.08652"
-     style="stroke-width:6.23622"></tspan></text></svg>
+     id="path17-7" /></g></svg>
