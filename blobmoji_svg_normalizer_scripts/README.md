@@ -4,3 +4,4 @@ These Python scripts are not used as part of the font compilation process. Inste
 
 - `flatten_clippath_groups.py` — Run before COLRv1 builds if `picosvg` fails with `Bad tag <g>` inside a `<clipPath>` (Inkscape group/powerclip exports).
 - `strip_svg_font_elements.py` — Run if `picosvg` fails with `BadElement: /svg[0]/font[0]` (Inkscape leftover SVG fonts after text-to-path).
+- `strip_dangling_clip_refs.py` — Run if `picosvg` fails with `Expected //svg:clipPath[@id="..."] matches in range(1, 2), 0 results` (Illustrator `SVGID_*` clip leftover after an Inkscape redesign / style-tag inlining).
