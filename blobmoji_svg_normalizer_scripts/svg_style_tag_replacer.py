@@ -19,7 +19,7 @@ def apply_inline_styles(svg_path):
         return
 
     for style in style_elements:
-        css = cssutils.parseString(style.text)
+        css = cssutils.parseString(style.text or "")
         for rule in css:
             if rule.type != rule.STYLE_RULE:
                 continue
