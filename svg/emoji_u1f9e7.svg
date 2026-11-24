@@ -112,28 +112,6 @@
        y2="79.176"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.12036,0,0,1.12036,-21.72,-8.445)" />
-    <filter
-       id="d"
-       x="-0.011883514"
-       width="1.023767"
-       y="-0.012109721"
-       height="1.0242194"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         stdDeviation=".628"
-         id="feGaussianBlur4" />
-    </filter>
-    <filter
-       id="d-0"
-       x="-0.011883514"
-       width="1.023767"
-       y="-0.012109721"
-       height="1.0242194"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         stdDeviation=".628"
-         id="feGaussianBlur4-4" />
-    </filter>
   </defs>
   <path
      id="rect12"
