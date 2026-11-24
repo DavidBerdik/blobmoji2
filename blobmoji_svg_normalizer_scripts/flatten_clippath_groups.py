@@ -2,7 +2,8 @@
 """Flatten <g> wrappers inside <clipPath> so picosvg can build COLRv1 fonts.
 
 picosvg only accepts shape elements as direct clipPath children. Inkscape often
-wraps clip geometry in groups (sometimes with transforms or nested clip-path).
+wraps clip geometry in groups (sometimes with transforms or nested clip-path),
+or references a painted group via <use> inside the clipPath (clip-to-group).
 """
 import argparse
 import os
@@ -11,7 +12,9 @@ import sys
 from lxml import etree
 
 SVG_NS = "http://www.w3.org/2000/svg"
+XLINK_NS = "http://www.w3.org/1999/xlink"
 SVG = f"{{{SVG_NS}}}"
+XLINK_HREF = f"{{{XLINK_NS}}}href"
 SHAPE_LOCAL_NAMES = frozenset(
     {"path", "circle", "ellipse", "line", "polygon", "polyline", "rect"}
 )
@@ -48,6 +51,92 @@ def find_defs(root: etree._Element) -> etree._Element:
     return defs
 
 
+def get_href(el: etree._Element) -> str | None:
+    return el.get(XLINK_HREF) or el.get("href")
+
+
+def find_element_by_id(root: etree._Element, elem_id: str) -> etree._Element | None:
+    for el in root.iter():
+        if el.get("id") == elem_id:
+            return el
+    return None
+
+
+def resolve_use_target(
+    root: etree._Element, use_el: etree._Element, visited: set[str] | None = None
+) -> etree._Element | None:
+    if visited is None:
+        visited = set()
+    href = get_href(use_el)
+    if not href or not href.startswith("#"):
+        return None
+    elem_id = href[1:]
+    if elem_id in visited:
+        return None
+    visited.add(elem_id)
+    target = find_element_by_id(root, elem_id)
+    if target is None:
+        return None
+    if local_name(target.tag) == "use":
+        return resolve_use_target(root, target, visited)
+    return target
+
+
+def shape_fill_is_none(el: etree._Element) -> bool:
+    fill = el.get("fill")
+    if fill is not None and fill.strip().lower() == "none":
+        return True
+    style = el.get("style")
+    if style:
+        for part in style.split(";"):
+            part = part.strip()
+            if part.lower().startswith("fill:"):
+                val = part.split(":", 1)[1].strip().lower()
+                if val == "none":
+                    return True
+    return False
+
+
+def collect_shape_clones_from_subtree(
+    el: etree._Element,
+    transform_prefix: str,
+    out_shapes: list[etree._Element],
+) -> None:
+    """Deep-copy filled shapes under el; never mutate the live tree."""
+    tag = local_name(el.tag)
+    if tag == "g":
+        next_prefix = compose_transform(transform_prefix, el.get("transform", ""))
+        for child in el:
+            collect_shape_clones_from_subtree(child, next_prefix, out_shapes)
+        return
+    if is_shape(el):
+        if shape_fill_is_none(el):
+            return
+        clone = etree.fromstring(etree.tostring(el))
+        if "id" in clone.attrib:
+            del clone.attrib["id"]
+        final_transform = compose_transform(transform_prefix, clone.get("transform", ""))
+        if final_transform:
+            clone.set("transform", final_transform)
+        elif "transform" in clone.attrib:
+            del clone.attrib["transform"]
+        out_shapes.append(clone)
+
+
+def expand_use_of_group(
+    use_el: etree._Element,
+    group_el: etree._Element,
+    out_shapes: list[etree._Element],
+) -> None:
+    prefix = (use_el.get("transform") or "").strip()
+    x, y = use_el.get("x"), use_el.get("y")
+    if (x and x != "0") or (y and y != "0"):
+        prefix = compose_transform(prefix, f"translate({x or 0},{y or 0})")
+    group_prefix = compose_transform(prefix, group_el.get("transform", ""))
+    for child in group_el:
+        collect_shape_clones_from_subtree(child, group_prefix, out_shapes)
+
+
 def is_id_referenced(root: etree._Element, elem_id: str) -> bool:
     needle = f"url(#{elem_id})"
     for el in root.iter():
@@ -60,7 +149,7 @@ def is_id_referenced(root: etree._Element, elem_id: str) -> bool:
     return False
 
 
-def clippath_needs_flatten(clip_el: etree._Element) -> bool:
+def clippath_needs_flatten(clip_el: etree._Element, root: etree._Element) -> bool:
     """True only when picosvg would choke on group/gradient content inside clipPath."""
     for el in clip_el.iter():
         if el is clip_el:
@@ -68,15 +157,35 @@ def clippath_needs_flatten(clip_el: etree._Element) -> bool:
         tag = local_name(el.tag)
         if tag == "g" or tag in GRADIENT_LOCAL_NAMES:
             return True
+        if tag == "use":
+            target = resolve_use_target(root, el)
+            if target is not None and local_name(target.tag) == "g":
+                return True
     return False
 
 
 def flatten_clippath(clip_el: etree._Element, root: etree._Element, defs_el: etree._Element) -> bool:
-    if not clippath_needs_flatten(clip_el):
+    if not clippath_needs_flatten(clip_el, root):
         return False
 
     shapes: list[etree._Element] = []
     promoted_clip_paths: list[str] = []
+
+    for child in list(clip_el):
+        if local_name(child.tag) == "use":
+            target = resolve_use_target(root, child)
+            if target is not None and local_name(target.tag) == "g":
+                expanded: list[etree._Element] = []
+                expand_use_of_group(child, target, expanded)
+                if not expanded:
+                    clip_id = clip_el.get("id", "?")
+                    raise ValueError(
+                        f"clipPath id={clip_id!r}: <use> of group {target.get('id', '?')!r} "
+                        "yielded no filled shapes"
+                    )
+                clip_el.remove(child)
+                shapes.extend(expanded)
+                continue
 
     def process(el: etree._Element, transform_prefix: str) -> None:
         tag = local_name(el.tag)
@@ -113,6 +222,8 @@ def flatten_clippath(clip_el: etree._Element, root: etree._Element, defs_el: etr
         parent.remove(el)
 
     for child in list(clip_el):
+        if child.getparent() is not clip_el:
+            continue
         process(child, "")
 
     unique_clips = {cp for cp in promoted_clip_paths if cp}
