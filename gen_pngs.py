@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import sys
 import cairosvg
 from multiprocessing import Pool, cpu_count
 
@@ -30,9 +31,9 @@ def convert_svg_to_png(args):
             output_width=dim,
             output_height=dim
         )
-        return f"✓ Converted {filename} to {dim}x{dim} PNG."
     except Exception as e:
-        return f"✗ Failed to convert {filename} at {dim}x{dim}: {e}"
+        return (False, f"✗ Failed to convert {filename} at {dim}x{dim}: {e}")
+    return (True, f"✓ Converted {filename} to {dim}x{dim} PNG.")
 
 # Gather all tasks
 tasks = []
@@ -47,8 +48,15 @@ num_processes = cpu_count()
 print(f"Using {num_processes} processes for conversion.")
 
 if __name__ == "__main__":
+    failures = 0
     with Pool(processes=num_processes) as pool:
-        for result in pool.imap_unordered(convert_svg_to_png, tasks):
-            print(result)
+        for ok, message in pool.imap_unordered(convert_svg_to_png, tasks):
+            print(message)
+            if not ok:
+                failures += 1
+
+    if failures:
+        print(f"❌ {failures} conversion(s) failed.", file=sys.stderr)
+        sys.exit(1)
 
     print("✅ All done!")
