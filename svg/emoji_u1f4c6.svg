@@ -1,13 +1,5 @@
-<svg viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg">
- <font id="font20185" horiz-adv-x="2048">
-  <font-face font-family="Roboto-Bold" underline-position="-150" underline-thickness="100" units-per-em="2048"/>
-  <glyph d="M801 0H512v1114l-345-107v235l603 216h31z" horiz-adv-x="1175" unicode="1"/>
-  <glyph d="M1089 1294L526 0H221l564 1222H61v234h1028z" horiz-adv-x="1175" unicode="7"/>
-  <glyph d="M717 1456h300V448c0-93-20-174-61-245S857 77 782 38 623-20 529-20C375-20 255 19 169 98 83 176 40 287 40 430h302c0-71 15-124 45-158s77-51 142-51c57 0 103 20 137 59s51 95 51 168z" horiz-adv-x="1144" unicode="J"/>
-  <glyph d="M416 0H126v1536h290z" horiz-adv-x="543" unicode="l"/>
-  <glyph d="M759 110C688 23 589-20 463-20 347-20 259 13 198 80s-93 164-94 293v709h289V383c0-113 51-169 154-169 98 0 165 34 202 102v766h290V0H767z" horiz-adv-x="1146" unicode="u"/>
-  <glyph d="M515 409l200 673h310L590-168l-24-57c-65-141-171-212-320-212-42 0-85 6-128 19v219l44-1c55 0 96 8 123 25s48 44 63 83l34 89L3 1082h311z" horiz-adv-x="1028" unicode="y"/>
- </font>
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" version="1.1">
  <path d="M112.5 124.96h-97c-5.52 0-10-4.48-10-10V32.72c0-5.76 4.67-10.43 10.43-10.43h96.13c5.76 0 10.43 4.67 10.43 10.43v82.25c.01 5.52-4.47 9.99-9.99 9.99z" fill="#90a4ae" style="fill:#93b1bb"/>
  <path d="M112.5 119h-97c-5.52 0-10-4.48-10-10v3.5c0 5.52 4.48 10 10 10h97c5.52 0 10-4.48 10-10V109c0 5.53-4.48 10-10 10z" fill="#78909c" style="fill:#6593a2"/>
  <path d="m112.5 112.5h-97c-5.52 0-10-4.48-10-10v3.5c0 5.52 4.48 10 10 10h97c5.52 0 10-4.48 10-10v-3.5c0 5.52-4.48 10-10 10z" fill="#78909c" style="fill:#6593a2"/>

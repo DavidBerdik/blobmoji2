@@ -10,6 +10,44 @@ import glob
 import argparse
 import re
 
+from lxml import etree
+
+
+def _local_name(tag: str) -> str:
+    if tag.startswith("{"):
+        return tag.split("}", 1)[1]
+    return tag
+
+
+def remove_svg_font_elements(svg_file: str) -> bool:
+    """Delete leftover SVG 1.1 <font> trees after text-to-path (picosvg rejects them)."""
+    try:
+        tree = etree.parse(svg_file)
+        root = tree.getroot()
+        if _local_name(root.tag) != "svg":
+            return False
+        changed = False
+        for el in list(root.iter()):
+            if el is root:
+                continue
+            if _local_name(el.tag) == "font":
+                parent = el.getparent()
+                if parent is not None:
+                    parent.remove(el)
+                    changed = True
+        if changed:
+            tree.write(
+                svg_file,
+                pretty_print=True,
+                xml_declaration=True,
+                encoding="UTF-8",
+            )
+        return changed
+    except Exception as e:
+        print(f"Error removing SVG font elements from {svg_file}: {e}")
+        return False
+
+
 def clean_font_attributes(svg_file):
     """
     Clean font-related attributes from an SVG file after text-to-path conversion.
@@ -91,8 +129,11 @@ def convert_svg_text_to_path(input_file, output_file=None):
         
         # Step 2: Clean any remaining font attributes from the file
         clean_font_attributes(temp_file)
-        
-        # Step 3: If we used a temp file, replace the original
+
+        # Step 3: Remove leftover <font> trees Inkscape leaves after text-to-path
+        remove_svg_font_elements(temp_file)
+
+        # Step 4: If we used a temp file, replace the original
         if output_file is None:
             os.replace(temp_file, final_file)
             
