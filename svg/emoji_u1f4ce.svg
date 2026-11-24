@@ -1,39 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="128"
-   height="128"
-   style="enable-background:new 0 0 128 128;"
-   version="1.1"
-   id="svg74030"
-   sodipodi:docname="emoji_u1f4ce.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs74034" />
-  <sodipodi:namedview
-     id="namedview74032"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="4.2421875"
-     inkscape:cx="47.381215"
-     inkscape:cy="63.882136"
-     inkscape:window-width="1366"
-     inkscape:window-height="697"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg74030" />
-  <path
-     d="M37.83,126.53h-0.01c-8.11,0-15.72-3.16-21.44-8.88c-5.73-5.73-8.9-13.35-8.9-21.45 c0-8.1,3.16-15.71,8.89-21.44l67.5-67.49C88,3.1,93.4,1.06,99.07,1.54c5.23,0.43,10.4,2.96,14.57,7.12 c8.59,8.6,9.23,21.96,1.41,29.78L58.4,95.09c-4.75,4.76-12.15,4.28-17.61-1.15c-5.17-5.17-5.68-13.08-1.16-17.61l46.34-46.33 l6.17,6.17L45.82,82.5c-0.97,0.97-0.69,3.43,1.15,5.27c0.53,0.53,3.31,3.11,5.25,1.15l56.66-56.65c4.41-4.42,3.78-12.24-1.41-17.44 c-2.7-2.7-5.93-4.33-9.1-4.59c-3.09-0.27-5.99,0.85-8.32,3.18l-67.5,67.49c-4.09,4.08-6.33,9.51-6.33,15.27 c0,5.77,2.25,11.19,6.34,15.28c4.08,4.08,9.49,6.33,15.26,6.33l0,0c5.78,0,11.21-2.24,15.28-6.33l58.42-58.41l6.17,6.17 l-58.43,58.41C53.54,123.37,45.93,126.53,37.83,126.53z"
-     style="fill:#5b6073;fill-opacity:1"
-     id="path74028" />
-</svg>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" width="128" height="128" style="enable-background:new 0 0 128 128;" version="1.1" id="svg74030" ns1:docname="emoji_u1f4ce.svg" ns2:version="1.2.2 (732a01da63, 2022-12-09)" viewBox="0 0 128 128">
+  <g transform="scale(1.0)"><defs id="defs74034" />
+  <ns1:namedview id="namedview74032" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns2:showpageshadow="2" ns2:pageopacity="0.0" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" showgrid="false" ns2:zoom="4.2421875" ns2:cx="47.381215" ns2:cy="63.882136" ns2:window-width="1366" ns2:window-height="697" ns2:window-x="-8" ns2:window-y="-8" ns2:window-maximized="1" ns2:current-layer="svg74030" />
+  <path d="M37.83,126.53h-0.01c-8.11,0-15.72-3.16-21.44-8.88c-5.73-5.73-8.9-13.35-8.9-21.45 c0-8.1,3.16-15.71,8.89-21.44l67.5-67.49C88,3.1,93.4,1.06,99.07,1.54c5.23,0.43,10.4,2.96,14.57,7.12 c8.59,8.6,9.23,21.96,1.41,29.78L58.4,95.09c-4.75,4.76-12.15,4.28-17.61-1.15c-5.17-5.17-5.68-13.08-1.16-17.61l46.34-46.33 l6.17,6.17L45.82,82.5c-0.97,0.97-0.69,3.43,1.15,5.27c0.53,0.53,3.31,3.11,5.25,1.15l56.66-56.65c4.41-4.42,3.78-12.24-1.41-17.44 c-2.7-2.7-5.93-4.33-9.1-4.59c-3.09-0.27-5.99,0.85-8.32,3.18l-67.5,67.49c-4.09,4.08-6.33,9.51-6.33,15.27 c0,5.77,2.25,11.19,6.34,15.28c4.08,4.08,9.49,6.33,15.26,6.33l0,0c5.78,0,11.21-2.24,15.28-6.33l58.42-58.41l6.17,6.17 l-58.43,58.41C53.54,123.37,45.93,126.53,37.83,126.53z" style="fill:#5b6073;fill-opacity:1" id="path74028" />
+</g></svg>
