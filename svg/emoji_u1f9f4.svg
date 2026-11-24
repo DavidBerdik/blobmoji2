@@ -8,7 +8,7 @@
    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
    id="svg32258"
    sodipodi:docname="emoji_u1f9f4.svg"
-   inkscape:version="1.4.2 (2aeb623e1d, 2025-05-12)"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -31,15 +31,16 @@
    inkscape:deskcolor="#d1d1d1"
    showgrid="false"
    inkscape:zoom="4.1753505"
-   inkscape:cx="48.259422"
-   inkscape:cy="95.920092"
-   inkscape:window-width="1854"
-   inkscape:window-height="1011"
-   inkscape:window-x="0"
-   inkscape:window-y="0"
+   inkscape:cx="64.904731"
+   inkscape:cy="58.318457"
+   inkscape:window-width="1920"
+   inkscape:window-height="974"
+   inkscape:window-x="-11"
+   inkscape:window-y="-11"
    inkscape:window-maximized="1"
    inkscape:current-layer="g53038"
-   showguides="false" />
+   showguides="false"
+   inkscape:lockguides="false" />
     
 <g
    id="g53038"><path
@@ -286,16 +287,7 @@
    style="fill:#e48c15;fill-rule:nonzero"
    id="path32250" />
             </g>
-        </g><text
-     xml:space="preserve"
-     style="font-size:666.667px;font-family:'Briem Hand Test11';-inkscape-font-specification:'Briem Hand Test11';fill:#ffffff;stroke-width:5.66929;stroke-linecap:round"
-     x="112"
-     y="111.75"
-     id="text51540"><tspan
-       sodipodi:role="line"
-       id="tspan51538"
-       x="112"
-       y="111.75" /></text><g
+        </g><g
      transform="matrix(1.1805183,0.00933181,-0.00933181,1.1805183,62.138348,106.31288)"
      id="g51940">
             
