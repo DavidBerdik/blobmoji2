@@ -2,7 +2,6 @@
 # from;to
 # the 'from' sequence should be represented by the image for the 'to' sequence
 # 'fe0f' is not in these sequences
-fe82b;unknown_flag # no name -> no name
 
 # flag aliases
 1f1e7_1f1fb;1f1f3_1f1f4 # BV -> NO

@@ -3548,6 +3548,25 @@ emoji_u1fac6.svg
 emoji_u1fadc.svg
 emoji_u1fadf.svg
 emoji_u1fae9.svg
+emoji_u1f6d9.svg
+emoji_u1fa8b.svg
+emoji_u1fa8c.svg
+emoji_u1fa8d.svg
+emoji_u1facc.svg
+emoji_u1fadd.svg
+emoji_u1faeb.svg
+emoji_u1faf9.svg
+emoji_u1faf9_1f3fb.svg
+emoji_u1faf9_1f3fc.svg
+emoji_u1faf9_1f3fd.svg
+emoji_u1faf9_1f3fe.svg
+emoji_u1faf9_1f3ff.svg
+emoji_u1fafa.svg
+emoji_u1fafa_1f3fb.svg
+emoji_u1fafa_1f3fc.svg
+emoji_u1fafa_1f3fd.svg
+emoji_u1fafa_1f3fe.svg
+emoji_u1fafa_1f3ff.svg
 
 # Blobmojis without upstream Noto:
 emoji_u1f3c3_1f9b0_200d_2640.svg
