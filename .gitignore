@@ -5,3 +5,6 @@ build/
 venv/
 emojicompat/
 png/
+colrv0/staged/
+colrv0/build/
+colrv0/*.toml

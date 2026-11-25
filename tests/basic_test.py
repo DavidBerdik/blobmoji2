@@ -62,6 +62,7 @@ def test_has_emojicompat():
 
     ec_fonts = set(fonts_dir.rglob("*-emojicompat.ttf"))
     assert {f.name for f in ec_fonts} == {
+        "Noto-COLRv0-emojicompat.ttf",
         "Noto-COLRv1-emojicompat.ttf",
         "NotoColorEmoji-emojicompat.ttf",
     }
@@ -81,6 +82,25 @@ def name(font, name_id):
             values.add(name.toUnicode())
     assert len(values) == 1, f"{name_id} has multiple definitions: {values}"
     return next(iter(values))
+
+
+def test_colrv0_tables():
+    fonts_dir = Path("fonts")
+    colr0 = fonts_dir / "Noto-COLRv0.ttf"
+    if not colr0.is_file():
+        return
+    font = ttLib.TTFont(colr0)
+    assert "COLR" in font
+    assert font["COLR"].version == 0
+    assert "CPAL" in font
+    assert "SVG " not in font
+    colr = font["COLR"]
+    layer_count = getattr(colr, "LayerRecordCount", None)
+    if layer_count is None and hasattr(colr, "table"):
+        layer_count = colr.table.LayerRecordCount
+    if layer_count is not None:
+        assert layer_count <= 65535
+    assert font["maxp"].numGlyphs <= 65535
 
 
 def test_flagsonly_name():

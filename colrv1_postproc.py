@@ -1,5 +1,5 @@
 """
-Post-nanoemoji processing of the Noto COLRv1 Emoji files.
+Post-nanoemoji processing of Noto COLRv1 and COLRv0 emoji files.
 
 Adds additional sequences to properly support Safari, corrects 'name', etc.
 
@@ -22,49 +22,52 @@ from colrv1_add_soft_light_to_flags import add_soft_light_to_flags
 
 
 _CBDT_FILE = Path("fonts/NotoColorEmoji.ttf")
-_COLR_FILES = {
+_COLRV1_FILES = (
     Path("fonts/Noto-COLRv1-noflags.ttf"),
     Path("fonts/Noto-COLRv1.ttf"),
-}
+)
+_COLRV0_FILES = (
+    Path("fonts/Noto-COLRv0-noflags.ttf"),
+    Path("fonts/Noto-COLRv0.ttf"),
+)
 
 
-def _is_colrv1(font):
-    return "COLR" in font and font["COLR"].version == 1
+def _is_colr_version(font, version: int):
+    return "COLR" in font and font["COLR"].version == version
 
 
 def _is_cbdt(font):
     return "CBDT" in font
 
 
-def _set_name(name_table, nameID):
-    name_table.getName(value, nameID, 3, 1, 0x409)
-
-
 def _set_name(name_table, nameID, value):
     name_table.setName(value, nameID, 3, 1, 0x409)
 
 
-def _copy_names(colr_font, cbdt_font):
+def _copy_names(colr_font, cbdt_font, colr_version: int):
     colr_font["name"] = cbdt_font["name"]
     name_table = colr_font["name"]
     assert all(
         (n.platformID, n.platEncID, n.langID) == (3, 1, 0x409) for n in name_table.names
     ), "Should only have names Android uses"
 
-    # Amendments
-    _set_name(name_table, 10, "Color emoji font using COLRv1.")
-    _set_name(name_table, 11, "https://github.com/googlefonts/noto-emoji")
-    _set_name(name_table, 12, "https://github.com/googlefonts/noto-emoji")
+    if colr_version == 0:
+        desc = "Color emoji font using COLRv0."
+    else:
+        desc = "Color emoji font using COLRv1."
+    _set_name(name_table, 10, desc)
+    _set_name(name_table, 11, "https://github.com/DavidBerdik/blobmoji2")
+    _set_name(name_table, 12, "https://github.com/DavidBerdik/blobmoji2")
 
 
 # CBDT build step: @$(VS_ADDER) -vs 2640 2642 2695 --dstdir '.' -o "$@-with-pua-varsel" "$@-with-pua"
-def _add_vs_cmap(colr_font):
+def _add_vs_cmap(colr_font, label: str):
     emoji_variants = unicode_data.get_unicode_emoji_variants() | {
         0x2640,
         0x2642,
         0x2695,
     }
-    add_vs_cmap.modify_font("COLRv1 Emoji", colr_font, "emoji", emoji_variants)
+    add_vs_cmap.modify_font(label, colr_font, "emoji", emoji_variants)
 
 
 def _is_variation_selector_cmap_table(table):
@@ -310,35 +313,46 @@ def _font(path, check_fn, check_fail_str):
     return font
 
 
-def main(_):
-    cbdt_font = _font(_CBDT_FILE, _is_cbdt, " must be a CBDT font")
+def _postprocess_colr_file(colr_file: Path, cbdt_font, colr_version: int):
+    colr_font = _font(
+        colr_file,
+        lambda f: _is_colr_version(f, colr_version),
+        f" must be a COLRv{colr_version} font",
+    )
 
-    for colr_file in _COLR_FILES:
-        colr_font = _font(colr_file, _is_colrv1, " must be a COLRv1 font")
+    print(f"Updating {colr_file} from {_CBDT_FILE}")
 
-        print(f"Updating {colr_file} from {_CBDT_FILE}")
+    _copy_names(colr_font, cbdt_font, colr_version)
 
-        _copy_names(colr_font, cbdt_font)
+    map_pua_emoji.add_pua_cmap_to_font(colr_font)
 
-        # CBDT build step: @$(PYTHON) $(PUA_ADDER) "$@" "$@-with-pua"
-        map_pua_emoji.add_pua_cmap_to_font(colr_font)
+    _add_vs_cmap(colr_font, f"COLRv{colr_version} Emoji")
 
-        _add_vs_cmap(colr_font)
+    _map_missing_flag_tag_chars_to_empty_glyphs(colr_font)
 
-        _map_missing_flag_tag_chars_to_empty_glyphs(colr_font)
-
+    if colr_version == 1:
         add_soft_light_to_flags(colr_font)
 
-        _add_vertical_layout_tables(cbdt_font, colr_font)
+    _add_vertical_layout_tables(cbdt_font, colr_font)
 
-        _add_fallback_subs_for_unknown_flags(colr_font)
+    _add_fallback_subs_for_unknown_flags(colr_font)
 
-        _set_no_font_embedding_restrictions(colr_font)
+    _set_no_font_embedding_restrictions(colr_font)
 
-        _set_head_version_to_name_version(colr_font)
+    _set_head_version_to_name_version(colr_font)
 
-        print("Writing", colr_file)
-        colr_font.save(colr_file)
+    print("Writing", colr_file)
+    colr_font.save(colr_file)
+
+
+def _main_colr_files(files, colr_version: int):
+    cbdt_font = _font(_CBDT_FILE, _is_cbdt, " must be a CBDT font")
+    for colr_file in files:
+        _postprocess_colr_file(colr_file, cbdt_font, colr_version)
+
+
+def main(_):
+    _main_colr_files(_COLRV1_FILES, 1)
 
 
 if __name__ == "__main__":

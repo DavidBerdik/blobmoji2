@@ -17,18 +17,12 @@
 from nanoemoji.util import rel
 from pathlib import Path
 
-
-_NOTO_FAMILY_NAME = "Noto Color Emoji"
-_NOTO_SVG_DIR = Path("svg")
-_REGIONAL_INDICATORS = {
-    Path(_NOTO_SVG_DIR / f"emoji_u{i:x}.svg") for i in range(0x1F1E6, 0x1F1FF + 1)
-}
-_NOTO_WAVED_FLAG_SVG_DIR = Path("third_party/region-flags/waved-svg")
-_NOTO_SUBDIVISION_FLAGS = (
-    _NOTO_WAVED_FLAG_SVG_DIR / "emoji_u1f3f4_e0067_e0062_e0065_e006e_e0067_e007f.svg",
-    _NOTO_WAVED_FLAG_SVG_DIR / "emoji_u1f3f4_e0067_e0062_e0073_e0063_e0074_e007f.svg",
-    _NOTO_WAVED_FLAG_SVG_DIR / "emoji_u1f3f4_e0067_e0062_e0077_e006c_e0073_e007f.svg",
+from colr_svg_sources import (
+    NOTO_FAMILY_NAME,
+    all_colr_svg_paths,
+    noflag_colr_svg_paths,
 )
+
 _CONFIG_DIR = Path("colrv1")
 
 
@@ -43,7 +37,7 @@ def _write_config(config_name, output_file, svg_files):
     with open(_CONFIG_DIR / config_file, "w") as f:
         f.write(
             f"""
-family = "{_NOTO_FAMILY_NAME}"
+family = "{NOTO_FAMILY_NAME}"
 output_file = "{output_file}"
 color_format = "glyf_colr_1"
 clipbox_quantization = 32
@@ -65,29 +59,11 @@ wght = 400
 
 
 def _write_all_noto_configs():
-    # includes all of noto-emoji svgs plus all the waved region flags
-    regular = tuple(_NOTO_SVG_DIR.glob("*.svg"))
-    flags = tuple(_NOTO_WAVED_FLAG_SVG_DIR.glob("*.svg"))
-
-    dups = {p.name for p in regular} & {p.name for p in flags}
-    if dups:
-        raise ValueError(f"Flags *and* regular have {dups}")
-
-    svgs = regular + flags
-    _write_config("all", "NotoColorEmoji.ttf", svgs)
+    _write_config("all", "NotoColorEmoji.ttf", all_colr_svg_paths())
 
 
 def _write_noto_noflag_configs():
-    # Does not contain regional indicators and the region flags that are
-    # composed with them. It still includes the England, Scotland and Wales
-    # 'subdivision' flags, as those are not composed with Unicode regional
-    # indicators, but use sequences of Unicode Tag letters prefixed with
-    # the Black Flag and ending with a Cancel Tag.
-    svgs = (
-        tuple(p for p in _NOTO_SVG_DIR.glob("*.svg") if p not in _REGIONAL_INDICATORS)
-        + _NOTO_SUBDIVISION_FLAGS
-    )
-    _write_config("noflags", "NotoColorEmoji-noflags.ttf", svgs)
+    _write_config("noflags", "NotoColorEmoji-noflags.ttf", noflag_colr_svg_paths())
 
 
 def main():

@@ -14,12 +14,19 @@ The latest font file is found [here](https://github.com/DavidBerdik/blobmoji2/re
 
 The black-and-white emoji font is back under active development and is available as a [variable font](https://fonts.google.com/noto/specimen/Noto+Emoji)
 
-## Using NotoColorEmoji
+## Color font formats
 
-NotoColorEmoji uses the CBDT/CBLC color font format, which is supported by Android
-and Chrome/Chromium OS.  Windows supports it starting with Windows 10 Anniversary
-Update in Chrome and Edge.  On macOS, only Chrome supports it, while on Linux it will
-support it with some fontconfig tweaking, see [issue #36](https://github.com/googlei18n/noto-emoji/issues/36). Currently we do not build other color font formats.
+Blobmoji2 ships several color builds from the same SVG artwork:
+
+| File | Format | Notes |
+| --- | --- | --- |
+| `NotoColorEmoji.ttf` | CBDT/CBLC (bitmap) | Broad legacy support (Android, Chrome, etc.) |
+| `Noto-COLRv1.ttf` | COLRv1 + glyf | Gradients, soft-light on flags; newer stacks |
+| `Noto-COLRv0.ttf` | COLRv0 + glyf | Flat colors only (gradients flattened at build time); useful for older Qt / mobile Linux renderers with COLRv0 but not COLRv1 |
+
+CBDT/CBLC is described in [issue #36](https://github.com/googlei18n/noto-emoji/issues/36) for Linux fontconfig setup.
+
+Build everything (including COLRv0) with `./full_rebuild.sh` or `docker_build.sh` — see [BUILD.md](BUILD.md).
 
 ## License
 

@@ -1,4 +1,6 @@
 fonttools>=4.59.1
 notofonttools>=0.3.2
 nanoemoji >= 0.15.8
+ninja>=1.11.0
 pytest>=8.4
+absl-py>=2.0.0
