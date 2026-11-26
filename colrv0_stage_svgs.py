@@ -67,7 +67,7 @@ def stage_one(
         )
 
         shapes = tuple(svg.shapes())
-        allow_non_consecutive = non_consecutive and len(shapes) <= 120
+        allow_non_consecutive = non_consecutive and len(shapes) <= 200
         is_waved_flag = dest.parent.name == "waved-svg"
         merged_shapes = merge_shapes_for_colrv0(
             shapes,

@@ -22,6 +22,8 @@ from typing import List, Optional, Sequence, Tuple
 
 from picosvg.svg import SVG
 from picosvg.svg_pathops import intersection as path_intersection
+from picosvg.svg_pathops import path_area
+from picosvg.svg_pathops import remove_overlaps
 from picosvg.svg_pathops import union as path_union
 from picosvg.svg_types import SVGPath
 
@@ -100,24 +102,173 @@ def _union_shapes_chunked(shapes: Sequence[SVGPath], chunk: int = 25) -> List[SV
     return parts
 
 
-def _union_shapes(shapes: Sequence[SVGPath]) -> List[SVGPath]:
+def _overlap_components(run: Sequence[SVGPath]) -> List[List[SVGPath]]:
+    if not run:
+        return []
+    components: List[List[SVGPath]] = [[run[0]]]
+    for shape in run[1:]:
+        box = _bbox(shape)
+        prev = components[-1]
+        if box and any(
+            _bboxes_overlap(box, b) for s in prev if (b := _bbox(s)) is not None
+        ):
+            prev.append(shape)
+        else:
+            components.append([shape])
+    return components
+
+
+def _flush_consecutive_run(run: Sequence[SVGPath]) -> List[SVGPath]:
+    """Union same-paint runs; keep Illustrator stacks that would merge incorrectly."""
+    out: List[SVGPath] = []
+    for comp in _overlap_components(run):
+        if len(comp) <= 2:
+            out.extend(_union_shapes(comp))
+            continue
+        trial = _union_shapes(comp)
+        stroke_pairs = any(
+            is_stroke_outline_pair(comp[i], comp[i + 1]) for i in range(len(comp) - 1)
+        )
+        if len(trial) == 1 and stroke_pairs:
+            out.extend(comp)
+            continue
+        i = 0
+        while i < len(comp):
+            if i + 1 < len(comp) and is_stroke_outline_pair(comp[i], comp[i + 1]):
+                out.append(comp[i])
+                out.append(comp[i + 1])
+                i += 2
+                continue
+            j = i + 1
+            while j < len(comp) and (
+                j + 1 >= len(comp)
+                or not is_stroke_outline_pair(comp[j], comp[j + 1])
+            ):
+                j += 1
+            out.extend(_union_shapes(comp[i:j]))
+            i = j
+    return out
+
+
+def _union_shapes(
+    shapes: Sequence[SVGPath], *, reject_long_merge: bool = False
+) -> List[SVGPath]:
     """Union shapes sharing paint; on failure return the inputs unchanged."""
     if len(shapes) == 1:
         return [shapes[0]]
     try:
         prepared = [_prepare_for_pathops(s) for s in shapes]
-        cmds = list(path_union([tuple(s) for s in prepared], _fill_rules(prepared)))
-        merged = SVGPath.from_commands(cmds)
+        rules = _fill_rules(prepared)
+        cmd_seqs = [tuple(s) for s in prepared]
+        # Opaque COLR layers composite as coverage union; each path keeps its fill rule.
+        layered = list(path_union(cmd_seqs, rules))
+        if not layered:
+            return list(shapes)
+        simplified = list(remove_overlaps(layered, "nonzero"))
+        if not simplified:
+            return list(shapes)
+        a_layered = path_area(layered, "nonzero")
+        a_simplified = path_area(simplified, "nonzero")
+        if abs(a_layered - a_simplified) > 0.5:
+            log.debug(
+                "union simplify area mismatch %.2f vs %.2f; keeping %s paths",
+                a_layered,
+                a_simplified,
+                len(shapes),
+            )
+            return list(shapes)
+        merged = SVGPath.from_commands(simplified)
         if not merged.d or not merged.d.strip():
             return list(shapes)
         merged.fill = shapes[0].fill
         merged.fill_opacity = shapes[0].fill_opacity
         merged.opacity = shapes[0].opacity
-        merged.fill_rule = shapes[0].fill_rule
+        merged.fill_rule = "nonzero"
         return [merged]
     except Exception as e:
         log.debug("union failed (%s paths): %s", len(shapes), e)
         return list(shapes)
+
+
+def _shape_area(shape: SVGPath) -> float:
+    try:
+        prepared = _prepare_for_pathops(shape)
+        return path_area(tuple(prepared), shape.fill_rule or "nonzero")
+    except Exception:
+        return 0.0
+
+
+def visible_ink_area(shapes: Sequence[SVGPath]) -> float:
+    """Occlusion-aware sum of visible opaque fill area in paint order."""
+    if not shapes:
+        return 0.0
+    acc_cmds: Optional[Tuple[tuple, ...]] = None
+    acc_rule = "nonzero"
+    total = 0.0
+    for shape in shapes:
+        try:
+            prepared = _prepare_for_pathops(shape)
+            rule = shape.fill_rule or "nonzero"
+            cmds = tuple(prepared)
+            a_shape = path_area(cmds, rule)
+            if acc_cmds is None:
+                total += a_shape
+            else:
+                inter = list(path_intersection([cmds, acc_cmds], [rule, acc_rule]))
+                a_inter = path_area(inter, "nonzero") if inter else 0.0
+                total += max(0.0, a_shape - a_inter)
+            united = list(path_union([cmds, acc_cmds] if acc_cmds else [cmds], [rule, acc_rule] if acc_cmds else [rule]))
+            if united:
+                acc_cmds = tuple(united)
+                acc_rule = "nonzero"
+        except Exception:
+            total += _shape_area(shape)
+    return total
+
+
+def _bbox_contains(
+    outer: Tuple[float, float, float, float],
+    inner: Tuple[float, float, float, float],
+) -> bool:
+    ox0, oy0, ox1, oy1 = outer
+    ix0, iy0, ix1, iy1 = inner
+    return ox0 <= ix0 and oy0 <= iy0 and ox1 >= ix1 and oy1 >= iy1
+
+
+def is_nested_coverage_pair(a: SVGPath, b: SVGPath) -> bool:
+    """Same paint: b is a larger covering layer over a (e.g. flashlight lens over body)."""
+    if paint_key(a) != paint_key(b):
+        return False
+    ba, bb = _bbox(a), _bbox(b)
+    if not ba or not bb or not _bboxes_overlap(ba, bb):
+        return False
+    if not _bbox_contains(bb, ba):
+        return False
+    aa, ab = _shape_area(a), _shape_area(b)
+    la, lb = len(a.d or ""), len(b.d or "")
+    if ab <= aa * 1.25:
+        return False
+    if lb < la * 1.5:
+        return False
+    return True
+
+
+def is_stroke_outline_pair(a: SVGPath, b: SVGPath) -> bool:
+    """Illustrator-style same-color fill immediately followed by an outline trace."""
+    if paint_key(a) != paint_key(b):
+        return False
+    ba, bb = _bbox(a), _bbox(b)
+    if not ba or not bb or not _bboxes_overlap(ba, bb):
+        return False
+    aa, ab = _shape_area(a), _shape_area(b)
+    la, lb = len(a.d or ""), len(b.d or "")
+    if _bbox_contains(ba, bb) and ab > aa * 1.05 and lb > la * 1.15:
+        return True
+    if _bbox_contains(bb, ba) and aa > ab * 1.05 and la > lb * 1.15:
+        return True
+    if _bbox_contains(bb, ba) and lb > la * 1.35 and ab < aa * 0.32:
+        return True
+    return False
 
 
 def merge_consecutive_same_paint(shapes: Sequence[SVGPath]) -> List[SVGPath]:
@@ -129,13 +280,43 @@ def merge_consecutive_same_paint(shapes: Sequence[SVGPath]) -> List[SVGPath]:
     key = paint_key(shapes[0])
     for shape in shapes[1:]:
         if paint_key(shape) == key:
-            run.append(shape)
+            if run and is_nested_coverage_pair(run[-1], shape):
+                out.extend(_flush_consecutive_run(run))
+                out.append(shape)
+                run = [shape]
+            else:
+                run.append(shape)
         else:
-            out.extend(_union_shapes(run))
+            out.extend(_flush_consecutive_run(run))
             run = [shape]
             key = paint_key(shape)
-    out.extend(_union_shapes(run))
+    out.extend(_flush_consecutive_run(run))
     return out
+
+
+def _normalize_shape_for_colrv0(shape: SVGPath) -> SVGPath:
+    """Simplify each layer outline for predictable COLRv0 rasterization."""
+    try:
+        prepared = _prepare_for_pathops(shape)
+        rule = shape.fill_rule or "nonzero"
+        simplified = list(remove_overlaps(tuple(prepared), rule))
+        if not simplified:
+            return shape
+        a0 = path_area(tuple(prepared), rule)
+        a1 = path_area(simplified, "nonzero")
+        if abs(a0 - a1) > 0.5:
+            return shape
+        norm = SVGPath.from_commands(simplified)
+        if not norm.d or not norm.d.strip():
+            return shape
+        norm.fill = shape.fill
+        norm.fill_opacity = shape.fill_opacity
+        norm.opacity = shape.opacity
+        norm.fill_rule = "nonzero"
+        return norm
+    except Exception as e:
+        log.debug("normalize shape failed: %s", e)
+        return shape
 
 
 def _can_merge_across(
@@ -161,6 +342,20 @@ def _can_merge_across(
     return True
 
 
+def _subset_must_stay_separate(shapes: Sequence[SVGPath]) -> bool:
+    for i in range(len(shapes)):
+        for j in range(i + 1, len(shapes)):
+            if is_stroke_outline_pair(shapes[i], shapes[j]) or is_nested_coverage_pair(
+                shapes[i], shapes[j]
+            ):
+                return True
+            if is_stroke_outline_pair(shapes[j], shapes[i]) or is_nested_coverage_pair(
+                shapes[j], shapes[i]
+            ):
+                return True
+    return False
+
+
 def merge_non_consecutive_same_paint(shapes: Sequence[SVGPath]) -> List[SVGPath]:
     """Rung B: merge all same-paint paths in a span when in-between paths do not overlap."""
     remaining = list(shapes)
@@ -177,8 +372,11 @@ def merge_non_consecutive_same_paint(shapes: Sequence[SVGPath]) -> List[SVGPath]
             between = [j for j in range(lo + 1, hi) if j not in idxs]
             if not _can_merge_across(idxs, remaining, between):
                 continue
+            subset = [remaining[i] for i in idxs]
+            if _subset_must_stay_separate(subset):
+                continue
             before_len = len(remaining)
-            merged_list = _union_shapes([remaining[i] for i in idxs])
+            merged_list = _union_shapes(subset)
             if len(merged_list) >= len(idxs):
                 continue
             remaining = (
@@ -280,7 +478,7 @@ def merge_shapes_for_colrv0(
         current = merge_disjoint_same_paint(current, bbox_only=disjoint_bbox_only)
     if non_consecutive:
         current = merge_non_consecutive_same_paint(current)
-    return current
+    return [_normalize_shape_for_colrv0(s) for s in current]
 
 
 def clip_and_drop_empty(svg: SVG) -> SVG:
